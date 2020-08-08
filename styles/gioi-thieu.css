@@ -1,0 +1,437 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+section.banner{
+	position: relative;
+}
+
+section.banner img{
+	object-fit: cover;
+	object-position: center;
+	width: 100%;
+}
+
+section.banner .banner__contents{
+	position: absolute;
+	top: 30%;
+	width: 100%;
+}
+
+section.banner .banner__title h1{
+	font-weight: bold;
+	line-height: 55px;
+}
+
+section.banner .banner__description p{
+	font-size: 18px;
+	line-height: 35px;
+}
+
+section.banner .banner__description a{
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: underline;
+	color: black;
+}
+
+section.banner .banner__contents .banner__group_btn{
+	margin-top: 40px;
+}
+
+section.banner .banner__contents .banner__group_btn button{
+	padding: 10px;
+	border-radius: 40px;
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+section.banner .banner__contents .banner__group_btn button.banner__btn_register{
+	color: white;
+	background-color: #d43419;
+	border-color: #d43419;
+}
+
+section.banner .banner__contents .banner__group_btn button:focus{
+	outline: none;
+	box-shadow: none;
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	section.banner .banner__contents{
+		top: 10%;
+	}
+}
+@media (min-width: 480px) and (max-width: 767px){
+	section.banner .banner__title h1{
+		font-size: 24px;
+		line-height: 10px;
+	}
+
+	section.banner .banner__description p{
+		font-size: 12px;
+		line-height: 10px;
+	}
+
+	section.banner .banner__description a{
+		font-size: 12px;
+	}
+
+	section.banner .banner__contents{
+		top: 20%;
+	}
+
+	section.banner .banner__contents .banner__group_btn button{
+		padding: 5px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (max-width: 479px){
+	section.banner .banner__title h1{
+		font-size: 16px;
+		line-height: 10px;
+	}
+
+	section.banner .banner__description p{
+		font-size: 10px;
+		line-height: 10px;
+	}
+
+	section.banner .banner__description a{
+		font-size: 10px;
+	}
+
+	section.banner .banner__contents{
+		top: 10%;
+	}
+
+	section.banner .banner__contents .banner__group_btn button{
+		padding: 5px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 10px;
+	}
+	section.banner .banner__contents .banner__group_btn{
+		margin-top: 20px;
+	}
+}
+/*end section banner*/
+
+/*section video*/
+
+section.video-info{
+	margin-top: 90px;
+}
+section.video-info .video-info__title h2{
+	font-weight: normal;
+}
+
+/*end section video*/
+
+/*section trens*/
+
+section.trens{
+	margin-top: 90px;
+}
+section.trens .container-fluid{
+	background-color: #f2f5fa;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+section.trens .trens__title h2{
+	font-weight: normal;
+}
+
+section.trens .trens__title small{
+	letter-spacing: 1.5px;
+}
+
+section.trens .trens__contents .card{
+	border: none;
+	border-radius: 0;
+	background-color: #f2f5fa;
+}
+
+section.trens .trens__contents .card .card-body{
+	padding:0;
+}
+
+section.trens .trens__contents .card .card-body a{
+	color: #31ab70;
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+section.trens .trens__contents .card .card-body .card-text{
+	color: #bbbdc0;
+}
+
+@media (min-width: 768px){
+	section.trens .trens__contents .col-md-2{
+		-ms-flex: 0 0 20% !important;
+		flex: 0 0 20% !important;
+    max-width: 20% !important;
+	}
+}
+
+/*end section trens*/
+
+/*section platform*/
+
+section.platforms{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+section.platforms .platforms__title h5{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+/*end section platform*/
+
+/*section lỉne*/
+
+section.line-dashed .line-dashed__hr{
+	border-top: 1px dashed #badcd5;
+	width: 200px;
+}
+
+section.line-dashed{
+	text-align: -webkit-center;
+}
+
+
+/*end section line*/
+
+
+/*section customer*/
+
+section.customers{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+section.customers .customers__title h5{
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+
+section.customers .customers__logos .customers__box-logo{
+	position: relative;
+	text-align: center;
+	border: 1px solid #f0f0ef;
+	width: 84px;
+	height: 84px;
+	margin-top: 30px;
+}
+
+section.customers .customers__logos .customers__box-logo img{
+	position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto auto;
+}
+
+@media (min-width: 768px){
+	section.customers .customers__logos .col-md-1 {
+    -ms-flex: 0 0 10% !important;
+    flex: 0 0 10% !important;
+    max-width: 10% !important;
+	}
+}
+/*end section customer*/
+
+/*section message customer*/
+
+section.message-customer{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+section.message-customer .message-customer__message p{
+	font-weight: 550;
+	font-style: italic;
+}
+
+section.message-customer .message-customer__info .message-customer__name p{
+	font-weight: bold;
+	font-size: 20px;
+}
+
+section.message-customer .message-customer__info .message-customer__position p{
+	font-style: italic;
+	color: #bbbdc0;
+	font-size: 16px;
+	margin-bottom: 70px;
+}
+
+section.message-customer .message-customer__info .message-customer__see-more a{
+	color: #31ab70;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+/*end message customer*/
+
+/*section page infomation*/
+
+section.page-infomations .page-infomations__title h2{
+	font-weight: normal;
+}
+
+section.page-infomations .page-infomations__title .page-infomations__line{
+	text-align: -webkit-center;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+section.page-infomations .page-infomations__title .line{
+	border-bottom: 1px solid #badcd5;
+	width: 100px;
+}
+
+section.page-infomations .nav a.nav-link{
+	text-transform: uppercase;
+	padding: 1rem 1rem;
+	background-color: #f4f7fc;
+	border-color: #9298a2;
+	color: #97a3b7;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding-left: 36px;
+  padding-right: 36px;
+}
+
+section.page-infomations .nav .nav-item{
+	margin-top: 10px;
+}
+
+section.page-infomations .nav a.nav-link.active{/*97a3b7  */
+	background-color: #059044;
+	color: white;
+}
+
+section.page-infomations .tab-content .card .card-body{
+	padding-bottom: 0;
+}
+
+section.page-infomations .tab-content .card{
+	margin-top: 30px;
+}
+
+section.page-infomations .tab-content .card .card-body .card-title{
+	font-size: 16px;
+	font-weight: bold;
+}
+
+section.page-infomations .tab-content .card .card-body .card-text.calendar,
+section.page-infomations .tab-content .card .card-body .card-text.calendar small{
+	color: #059044;
+}
+/*end section page infomation*/
+
+/*section lỉne solid */
+
+section.page-infomations .line-solid{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+section.page-infomations .line-solid .line-solid__hr{
+	border-top: 1px solid #badcd5;
+}
+
+@media (max-width: 767px){
+	section.page-infomations .nav{
+		display: block;
+	}
+}
+
+
+/*end section line solid*/
+
+/*section form*/
+
+section.form{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+section.form .form__contents{
+	border-radius: 10px;
+	padding: 90px 40px 90px 40px;
+	background-color: #f2f5fa;
+}
+
+section.form .form__contents .form__title h2{
+	font-weight: normal;
+}
+
+section.form .form__box{
+	background-color: white;
+	border-radius: 20px;
+	padding: 50px;
+	-webkit-box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+	-moz-box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+	box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+}
+
+section.form .form__box .form__box__title{
+	text-align: center;
+}
+
+section.form .form__box .form__box__title .form__box__title_item{
+	display: inline;
+	text-transform: uppercase;
+}
+
+section.form .form__box .form__box__title .form__box__title_item.item-req{
+	color: #01994e;
+	font-weight: bold;
+}
+
+section.form .form__box .form__box__description p{
+	color: #cbc8c8;
+	font-size: 18px;
+}
+
+section.form .form__box .form__input input, section.form .form__box .form__input .input-group{
+	margin-bottom: 20px;
+}
+
+section.form .form__box .form__input .form__input__submit{
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	background-color: #d43419;
+	padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+section.form .form__box .form__input .form__contact_info p{
+	font-weight: bold;
+	color: #d43419;
+}
+
+@media (max-width: 480px){
+	section.form .form__contents{
+		padding-top: 90px; 
+    padding-bottom: 90px;
+    padding: 0;
+	}
+}
+
+
+/*end section form
