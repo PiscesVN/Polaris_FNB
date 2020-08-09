@@ -126,6 +126,7 @@ button.navbar-toggler {
 }
 
 #navbarSupportedContent20{
+	position: relative;
 	background-color: #31ab70;
 	z-index: 9999;
 }
