@@ -8,11 +8,6 @@ img.banner__thumnail {
     text-align: center;
 }
 
-.overview__thumbnail {
-    height: 480px;
-    padding-left: 9rem;
-}
-
 hr.overview__separetor {
     margin-bottom: 5rem;
     margin-top: 5rem;
@@ -90,7 +85,6 @@ a.detail_info_link {
 .info {
   background-image: url(../images/tinh-nang/banner3.jpg);
   margin-top: 6rem;
-  height: 56rem;
 }
 
 .info__title {
@@ -101,15 +95,11 @@ a.detail_info_link {
 }
 
 img.info__banner {
-    width: 141%;
     padding-top: 5rem;
-    margin-left: -10rem;
 }
 
 ul.infor_menu {
-    float: right;
     padding-top: 3rem;
-    width: 85%;
 }
 
 li.infor_menu_li {
