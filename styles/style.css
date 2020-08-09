@@ -109,12 +109,13 @@ i.fas.fa-bars {
 }
 
 a.navbar-brand.mobile-logo {
+	padding-left: 7px;
   float: left;
 }
 
 button.navbar-toggler {
 	padding-top: 13px;
-  padding-right: 0px;
+  padding-right: 7px;
   float: right;
 }
 
@@ -122,6 +123,16 @@ button.navbar-toggler {
 	.top-bar {
 		display: none;
 	}
+}
+
+#navbarSupportedContent20{
+	position: relative;
+	background-color: #31ab70;
+	z-index: 9999;
+}
+
+#navbarSupportedContent20 .nav-item a{
+	color: white;
 }
 
 .navbar-header {
