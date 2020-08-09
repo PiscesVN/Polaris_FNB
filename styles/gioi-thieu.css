@@ -109,6 +109,7 @@ section.banner .banner__contents .banner__group_btn button:focus{
 
 	section.banner .banner__contents{
 		top: 10%;
+		padding-left: 12px;
 	}
 
 	section.banner .banner__contents .banner__group_btn button{
