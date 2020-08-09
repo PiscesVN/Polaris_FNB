@@ -1,0 +1,257 @@
+img.banner__thumnail {
+  width: 100%;
+}
+
+.overview__title {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.overview__thumbnail {
+    height: 480px;
+    padding-left: 9rem;
+}
+
+hr.overview__separetor {
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+}
+
+.detail__title {
+    text-align: center;
+}
+
+h2.detail__sub_title {
+    display: inline;
+}
+
+.detail__sub_title.especially {
+    color: green;
+    font-weight: 600;
+}
+
+.detail__smalltitle {
+    margin-top: 4px;
+    color: #919398;
+}
+
+.detail__separetor {
+    width: 130px;
+    border-top: 1px solid rgb(0 0 0 / 81%);
+    margin-bottom: 30px;
+}
+
+img.detail__content__small {
+    float: left;
+    margin-right: 20px;
+    width: 22px
+}
+
+.detail__content__small.description {
+    padding-top: 2px;
+    margin-bottom: 0px;
+}
+
+.detail__content_item {
+    border: 1px solid rgb(0 0 0 / 22%);
+    padding-left: 18px;
+    padding-top: 11px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.detail__image1 {
+    width: 100%;
+}
+
+.detail__container {
+    margin-top: 5rem;
+}
+
+.detail__content {
+    width: 92%;
+}
+
+.detail__info {
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+a.detail_info_link {
+    color: black;
+    text-decoration: underline;
+}
+
+.col-lg-6.col-md-6.col-12.pr-0.pl-5 {
+    background-color: #f2f5fa;
+}
+
+.info {
+  background-image: url(../images/tinh-nang/banner3.jpg);
+  margin-top: 6rem;
+  height: 56rem;
+}
+
+.info__title {
+    text-align: center;
+    color: white;
+    padding-top: 7rem;
+    font-weight: 400;
+}
+
+img.info__banner {
+    width: 141%;
+    padding-top: 5rem;
+    margin-left: -10rem;
+}
+
+ul.infor_menu {
+    float: right;
+    padding-top: 3rem;
+    width: 85%;
+}
+
+li.infor_menu_li {
+    padding: 2%;
+    border-top: 1px solid rgb(247 247 247 / 66%);
+    border-left: 1px solid rgb(247 247 247 / 66%);
+    border-right: 1px solid rgb(247 247 247 / 66%);
+    list-style-type: none;
+}
+
+a.infor_menu__link {
+    color: white;
+}
+
+i.fas.fa-chevron-down.float-right {
+    color: white;
+    padding-top: 4px;
+}
+
+.infor_menu_end {
+    border-bottom: 1px solid rgb(247 247 247 / 66%);
+}
+
+li.infor_menu_li:hover, li.infor_menu_li:hover > a.infor_menu__link {
+    background-color: green;
+    list-style-type: none;
+}
+
+
+
+section.form{
+    margin-top: 90px;
+    margin-bottom: 90px;
+}
+
+section.form .form__contents{
+    border-radius: 10px;
+    padding: 90px 40px 90px 40px;
+    background-color: #f2f5fa;
+}
+
+section.form .form__contents .form__title h2{
+    font-weight: normal;
+}
+
+section.form .form__box{
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px;
+    -webkit-box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+    -moz-box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+    box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+}
+
+section.form .form__box .form__box__title{
+    text-align: center;
+}
+
+section.form .form__box .form__box__title .form__box__title_item{
+    display: inline;
+    text-transform: uppercase;
+}
+
+section.form .form__box .form__box__title .form__box__title_item.item-req{
+    color: #01994e;
+    font-weight: bold;
+}
+
+section.form .form__box .form__box__description p{
+    color: #cbc8c8;
+    font-size: 18px;
+}
+
+section.form .form__box .form__input input, section.form .form__box .form__input .input-group{
+    margin-bottom: 20px;
+}
+
+section.form .form__box .form__input .form__input__submit{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: #d43419;
+    padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+section.form .form__box .form__input .form__contact_info p{
+    font-weight: bold;
+    color: #d43419;
+}
+
+@media (max-width: 480px){
+    section.form .form__contents{
+        padding-top: 90px; 
+    padding-bottom: 90px;
+    padding: 0;
+    }
+}
+
+
+footer{
+    background-color: #f2f5fa;
+    padding-top: 90px;
+}
+
+footer .footer__above .footer__above_description p{
+    text-align: justify;
+}
+
+footer .footer__above ul{
+    list-style-image: url(../images/right.png);
+    list-style-position: inside;
+}
+
+footer .footer__above ul li a{
+    color: black;
+    font-size: 13px;
+}
+
+footer .footer__above .footer__title{
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+footer .footer__email_box input{
+    border-color: #059044;
+}
+
+footer .footer__email_box button{
+    background-color: #059044;
+    color: white;
+}
+
+footer .footer__bottom{
+    height: 50px;
+    background-color: #059044;
+    margin-top: 80px;
+    color: white;
+    font-weight: bold;
+}
+
+footer .footer__bottom .footer__bottom_content{
+    padding-top: 12px;
+}
