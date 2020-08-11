@@ -1,0 +1,33 @@
+section.page-title{
+	background-image: url(../images/customer/bg-customer.png);
+	object-position: center;
+	object-fit: cover;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+section.page-title h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+section.page-contents{
+	margin-top: 90px;
+	margin-bottom: 70px;
+}
+section.page-contents .card-title{
+	font-size: 14px;
+	font-weight: bold;
+}
+section.page-contents .card-body a{
+	text-decoration: underline;
+	color: #01994e;
+	font-weight: bold;
+}
+section.page-contents nav{
+	display: inline-block;
+}
+section.page-contents nav a{
+	color: black;
+}
