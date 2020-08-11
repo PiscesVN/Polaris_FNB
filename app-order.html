@@ -4,11 +4,13 @@
 	<meta charset="UTF-8">
 	<link rel="icon" type="image/png" href="./images/logo/favicon.jpg"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Page Giới Thiệu</title>
+	<title>Page App Order</title>
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
-	<link rel="stylesheet" href="./styles/gioi-thieu.css">
+	<link rel="stylesheet" href="./styles/owl-carousel/owl.carousel.min.css">
+	<link rel="stylesheet" href="./styles/owl-carousel/owl.theme.default.min.css">
+	<link rel="stylesheet" href="./styles/app-order.css">
 	<link rel="stylesheet" href="./styles/footer.css">
 	<link rel="stylesheet" href="./styles/style.css">
 </head>
@@ -52,9 +54,9 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent20">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"><a href="javascript(0)" class="nav-link">Giới thiệu</a></li>
+        <li class="nav-item active"><a href="index.html" class="nav-link">Giới thiệu</a></li>
         <li class="nav-item"><a href="tinh-nang.html" class="nav-link">Tính năng</a></li>
-        <li class="nav-item"><a href="app-order.html" class="nav-link">Kênh Order</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Kênh Order</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Bảng giá</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Khách hàng</a></li>
         <li class="nav-item"><a href="#" class="nav-link">Thông tin</a></li>
@@ -72,16 +74,16 @@
           </div>
           <div class="col-lg-7 col-md-8 pl-0 pr-0">
             <ul class="nav-bar__menu">
-              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Giới thiệu</a></li>
+              <li class="nav-bar__menu_item"><a href="index.html" class="nav-bar__menu_item__link">Giới thiệu</a></li>
               <li class="nav-bar__menu_item"><a href="tinh-nang.html" class="nav-bar__menu_item__link">Tính năng</a></li>
-              <li class="nav-bar__menu_item"><a href="app-order.html" class="nav-bar__menu_item__link">Kênh Order</a></li>
+              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Kênh Order</a></li>
               <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Bảng giá</a></li>
               <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Khách hàng</a></li>
               <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Thông tin</a></li>
             </ul>
           </div>
           <div class="col-lg-2 col-md-2 pl-0">
-            <a href="#" class="nav-bar__btn btn btn-danger">Đăng kí</a>
+            <a href="#" class="nav-bar__btn btn btn-danger">Đăng ký</a>
           </div>
         </div>
       </div>
@@ -90,16 +92,22 @@
 	<main>
 		<section class="banner">
 			<div class="container-fluid pl-0 pr-0">
-				<img src="./images/gioi-thieu/banner_gioi_thieu.png" class="" alt="banner">
+				<img src="./images/app-order/banner-app-order.jpg" class="" alt="banner">
 				<div class="row banner__contents">
 					<div class="container">
 						<div class="row">
-							<div class="col-xl-5 col-md-12 col-sm-12 col-12">
+							<div class="col-12 text-center banner__headers">
+								<h1>Ứng dụng di động đặt món mang thương hiệu riêng</h1>
+								<p>Dành cho nhà hàng, cafe, trà sữa, fastfood, chuỗi cửa hàng</p>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xl-6 col-md-12 col-sm-12 col-12">
 								<div class="banner__title">
-									<h1>Nền tảng số cho ngành F&B phát triển</h1>
+									<h1>Nhanh chóng - </br> Chuyên nghiệp - Vượt trội</h1>
 								</div>
 								<div class="banner__description mt-4">
-									<p>Polaris Fnb đồng hành cùng khách hàng vượt qua đại dịch Covid <a href="#">Xem thêm</a></p>
+									<p>Khởi tạo nhanh chóng - Tùy chỉnh linh hoạt</p>
 								</div>
 								<div class="banner__group_btn">
 									<button class="banner__btn_register mr-3">Đăng ký dùng thử</button>
@@ -111,106 +119,222 @@
 				</div>
 			</div>
 		</section>
-		<section class="video-info">
-			<div class="container">
-				<div class="row">
-					<div class="video-info__title text-center col-md-8 offset-md-2">
-						<h2>Xây dựng thương hiệu và trải nghiệm người dùng từ Online đến Offline</h2>
-					</div>
-				</div>
-				<div class="row mt-5">
-					<div class="video text-center col-md-12">
-						<div style="padding:56.25% 0 0 0;position:relative;">
-							<iframe src="https://player.vimeo.com/video/335006992?autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="trens">
+		<section class="features">
 			<div class="container-fluid">
 				<div class="row">
 					<div class="container">
 						<div class="row">
-							<div class="trens__title text-center col-md-8 offset-md-2">
-								<div class="trens__title__large"><h2>Xu hướng phát triển kinh doanh bình thường mới</h2></div>
-								<div class="trens__title__small mt-3"><small>Bán hàng khắp mọi nơi bạn muốn và quản lý tập trung chặt chẽ</small></div>
+							<div class="features__title text-center col-md-8 offset-md-2">
+								<h1>Tính năng nổi bật</h1>
 							</div>
 						</div>
-						<div class="row trens__contents mt-5">
-							<div class="col-md-2">
-								<div class="card" style="width: 100%;">
-								  <img src="./images/gioi-thieu/img-1.png" class="card-img-top img-fluid" alt="...">
-								  <div class="card-body mt-4">
-								    <h5 class="card-title">POS Order</h5>
-								    <p class="card-text">Bán trực tiếp tại cửa hàng và chuỗi cửa hàng</p>
-								    <a href="#">Xem chi tiết</a>
-								  </div>
-								</div>
-							</div>
-							<div class="col-md-2">
-								<div class="card" style="width: 100%;">
-								  <img src="./images/gioi-thieu/img-2.png" class="card-img-top img-fluid" alt="...">
-								  <div class="card-body mt-4">
-								    <h5 class="card-title">POS Order</h5>
-								    <p class="card-text">Bán trực tiếp tại cửa hàng và chuỗi cửa hàng</p>
-								    <a href="#">Xem chi tiết</a>
-								  </div>
-								</div>
-							</div>
-							<div class="col-md-2">
-								<div class="card" style="width: 100%;">
-								  <img src="./images/gioi-thieu/img-3.png" class="card-img-top img-fluid" alt="...">
-								  <div class="card-body mt-4">
-								    <h5 class="card-title">POS Order</h5>
-								    <p class="card-text">Bán trực tiếp tại cửa hàng và chuỗi cửa hàng</p>
-								    <a href="#">Xem chi tiết</a>
-								  </div>
-								</div>
-							</div>
-							<div class="col-md-2">
-								<div class="card" style="width: 100%;">
-								  <img src="./images/gioi-thieu/img-4.png" class="card-img-top img-fluid alt="...">
-								  <div class="card-body mt-4">
-								    <h5 class="card-title">POS Order</h5>
-								    <p class="card-text">Bán trực tiếp tại cửa hàng và chuỗi cửa hàng</p>
-								    <a href="#">Xem chi tiết</a>
-								  </div>
-								</div>
-							</div>
-							<div class="col-md-2">
-								<div class="card" style="width: 100%;">
-								  <img src="./images/gioi-thieu/img-5.png" class="card-img-top img-fluid" alt="...">
-								  <div class="card-body mt-4">
-								    <h5 class="card-title">POS Order</h5>
-								    <p class="card-text">Bán trực tiếp tại cửa hàng và chuỗi cửa hàng</p>
-								    <a href="#">Xem chi tiết</a>
-								  </div>
-								</div>
+						<div class="row features__contents mt-5">
+							<div class="col-12">
+								<img src="./images/app-order/features.png" alt="" class="img-fluid">
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-		<section class="platforms">
+		<section class="questions">
 			<div class="container">
-				<div class="row platforms__title">
-					<div class="col-md-8 offset-md-2">
-						<h5>Ứng dụng của polaris fnb đã có mặt trên nhiều nền tảng</h5>
+				<div class="row questions__title">
+					<div class="col-md-12 text-center">
+						<h1>Tại sao phải thiết kế ứng dụng đặt món riêng cho cửa hàng?</h1>
 					</div>
 				</div>
-				<div class="row platforms__img mt-3">
-					<div class="col-md-8 offset-md-2 text-center">
-						<div class="row">
-							<div class="col-md-4">
-								<img src="./images/gioi-thieu/platform-1.png" alt="Image App Store" class="img-fluid">
+				<div class="row questions__contents">
+					<div class="col-md-6">
+						<div class="card">
+							<div class="questions__img">
+								<img class="card-img-top img-fluid" src="./images/app-order/feature-1.png" alt="Dat mon online">
+						  	<h4>đặt món online</h4>
 							</div>
-							<div class="col-md-4">
-								<img src="./images/gioi-thieu/platform-2.png" alt="Image Google Play" class="img-fluid">
+						  <div class="card-body text-center">
+						    <p class="card-text">Ngoài phương thức bán hàng truyền thống và đăng tải trên các ứng dụng giao hàng. Cửa hàng hoàn toàn có thêm một kênh bán hàng để khách hàng có thể đặt món và thanh toán Online thuận tiện và dễ dàng.</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card">
+							<div class="questions__img">
+								<img class="card-img-top img-fluid" src="./images/app-order/feature-1.png" alt="Dat mon online">
+						  	<h4>chăm sóc khách hàng hiệu quả</h4>
 							</div>
-							<div class="col-md-4">
-								<img src="./images/gioi-thieu/platform-3.png" alt="Image Microsoft" class="img-fluid">
+						  <div class="card-body text-center">
+						    <p class="card-text">Với tính năng Push Notification của ứng dụng, chủ cửa hàng có thể chủ động gửi chương trình khuyến mãi, mã ưu đãi đến từng khách hàng, từng nhóm thành viên hoàn toàn miễn phí.</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card">
+							<div class="questions__img">
+								<img class="card-img-top img-fluid" src="./images/app-order/feature-1.png" alt="Dat mon online">
+						  	<h4>tăng sự nhận diện thương hiệu</h4>
+							</div>
+						  <div class="card-body text-center">
+						    <p class="card-text">Một ứng dụng di động riêng mang đến sự trải nghiệm mới lạ cho khách hàng, nâng cao sự nhận diện thương hiệu của cửa hàng đến khách hàng. Thương hiệu của cửa hàng luôn nằm trong tầm tay của khách hàng</p>
+						  </div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card">
+							<div class="questions__img">
+								<img class="card-img-top img-fluid" src="./images/app-order/feature-1.png" alt="Dat mon online">
+						  	<h4>gia tăng lợi nhuận bán hàng</h4>
+							</div>
+						  <div class="card-body text-center">
+						    <p class="card-text">Giảm chi phí chiết khấu qua các ứng dụng trung gian, gia tăng lợi nhuận với việc bán hàng trên ứng dụng riêng của cửa hàng.</p>
+						  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ui-stores">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 ui-stores__title text-center">
+						<h1>Kho giao diện đa dạng phù hợp nhiều mô hình kinh doanh</h1>
+						<p class="mt-3">Nhà hàng - Cà phê - Trà sữa - Fastfood</p>
+					</div>
+				</div>
+				<div class="ui-stores__carousel mt-5">
+					<div class="owl-carousel owl-theme image-slider">
+						<div>
+							<img src="./images/app-order/ui-1.png" alt="UI 01">
+							<div class="ui-stores__name text-center mt-4">
+								<h5>trà sữa</h5>
+							</div>
+						</div>
+						<div>
+							<img src="./images/app-order/ui-2.png" alt="UI 01">
+							<div class="ui-stores__name text-center mt-4">
+								<h5>nhà hàng</h5>
+							</div>
+						</div>
+						<div>
+							<img src="./images/app-order/ui-3.png" alt="UI 01">
+							<div class="ui-stores__name text-center mt-4">
+								<h5>bánh mì</h5>
+							</div>
+						</div>
+						<div>
+							<img src="./images/app-order/ui-4.png" alt="UI 01">
+							<div class="ui-stores__name text-center mt-4">
+								<h5>pizza</h5>
+							</div>
+						</div>
+						<div>
+							<img src="./images/app-order/ui-5.png" alt="UI 01">
+							<div class="ui-stores__name text-center mt-4">
+								<h5>cơm văn phòng</h5>
+							</div>
+						</div>
+						<div>
+							<img src="./images/app-order/ui-6.png" alt="UI 01">
+							<div class="ui-stores__name text-center mt-4">
+								<h5>coffee</h5>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<div class="container line-solid">
+			<div class="line-solid__hr"></div>
+		</div>
+		<section class="code">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6 code__text">
+						<div class="code__right">
+							<p>Trải nghiệm ứng dụng bán hàng</p>
+							<p>Cho từng <b class="code__text-shop">cửa hàng</b></p>
+							<small>Triển khai nhanh chóng - Tùy chỉnh linh hoạt</small>
+							<hr>
+							<p>Tải ứng dụng tham khảo theo đường dẫn <b class="text-danger">"Polaris House"</b></p>
+							<img src="./images/app-order/code.png" alt="mã code" class="img-fluid">
+						</div>
+					</div>
+					<div class="col-md-6 code__left mt-3">
+						<img src="./images/app-order/ipad.png" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="whys">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 whys__title text-center">
+						<h1>Tại sao lại chọn Polaris Fnb ?</h1>
+						<p class="mt-3">Nền tảng số "Make in Vietnam" được phát triển bới chuyên gia đầu ngành F&B</p>
+					</div>
+				</div>
+				<div class="row mt-5">
+					<div class="col-md-6">
+						<img src="./images/app-order/img-why.png" alt="" class="img-fluid">
+					</div>
+					<div class="col-md-6">
+						<img src="./images/app-order/why.png" alt="" class="img-fluid">
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="successes">
+			<div class="container">
+				<div class="row">
+					<div class="col-12 successes__title text-center">
+						<h1>Khách hàng đã ứng dụng thành công App Order trong kinh doanh</h1>
+						<p class="mt-3">Polaris FnB dành tặng Khách hàng combo giới thiệu App, bao gồm Standee và Bộ tờ rơi</p>
+					</div>
+				</div>
+				<div class="row successes__carousel mt-5">
+					<div class="owl-carousel owl-theme image-slider">
+						<div>
+							<img src="./images/app-order/success-1.png" alt="success 01">
+							<div class="text-center mt-4">
+								<div class="row">
+									<div class="col-1"></div>
+									<div class="col-5">
+										<img src="./images/app-order/apple-store.png" alt="Apple Store Logo">
+									</div>
+									<div class="col-5">
+										<img src="./images/app-order/gg-play.png" alt="Google Play Logo">
+									</div>
+									<div class="col-1"></div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<img src="./images/app-order/success-2.png" alt="success 01">
+							<div class="text-center mt-4">
+								<div class="row">
+									<div class="col-1"></div>
+									<div class="col-5">
+										<img src="./images/app-order/apple-store.png" alt="Apple Store Logo">
+									</div>
+									<div class="col-5">
+										<img src="./images/app-order/gg-play.png" alt="Google Play Logo">
+									</div>
+									<div class="col-1"></div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<img src="./images/app-order/success-3.png" alt="success 01">
+							<div class="text-center mt-4">
+								<div class="row">
+									<div class="col-1"></div>
+									<div class="col-5">
+										<img src="./images/app-order/apple-store.png" alt="Apple Store Logo">
+									</div>
+									<div class="col-5">
+										<img src="./images/app-order/gg-play.png" alt="Google Play Logo">
+									</div>
+									<div class="col-1"></div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -331,138 +455,9 @@
 				</div>
 			</div>
 		</section>
-		<section class="line-dashed">
-				<div class="line-dashed__hr"></div>
-		</section>
-		<section class="message-customer">
-			<div class="container">
-				<div class="row">
-					<div class="message-customer__message col-md-8 offset-md-2 text-center mb-3">
-						<p>"Khách hàng của chúng tôi đã có những trải nghiệm thú vị với QR Order var App Order mà Polaris Fnb cung cấp. Đội ngũ triển khai nhanh chóng và tận tình"</p>
-					</div>
-				</div>
-				<div class="row">
-					<div class="message-customer__info col-md-4 offset-md-4 text-center">
-						<div class="message-customer__image-box">
-							<img src="./images/gioi-thieu/customer_big.png" alt=" customer message">
-						</div>
-						<div class="message-customer__name mt-3">
-							<p>- Minh Hạnh -</p>
-						</div>
-						<div class="message-customer__position">
-							<p>Chủ thương hiệu Tara Coffee and more</p>
-						</div>
-						<div class="message-customer__see-more">
-							<a href="#">Xem thêm khách hàng của Polaris Fnb</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<section class="page-infomations">
-			<div class="container">
-				<div class="page-infomations__title text-center">
-					<h2>Trang thông tin</h2>
-					<div class="page-infomations__line">
-						<div class="line"></div>
-					</div>
-				</div>
-				<ul class="nav nav-fill">
-	        <li class="nav-item">
-	            <a class="nav-link active" href="#menu1" data-toggle="tab">Báo chí</a>
-	        </li>
-	        <li class="nav-item">
-	            <a class="nav-link" href="#menu2" data-toggle="tab">Doanh nghiệp</a>
-	        </li>
-	        <li class="nav-item">
-	            <a class="nav-link" href="#menu3" data-toggle="tab">Công nghệ</a>
-	        </li>
-	        <li class="nav-item">
-	            <a class="nav-link" href="#menu4" data-toggle="tab">Kinh doanh</a>
-	        </li>
-	        <li class="nav-item">
-	            <a class="nav-link" href="#menu4" data-toggle="tab">Marketing</a>
-	        </li>
-		    </ul>
-		    <div class="tab-content float-right w-100 mt-5">
-		        <div class="tab-pane active " role="tabpanel" id="menu1">
-		        	<div class="row">
-		        		<div class="col-md-6">
-		        			<div class="card">
-									  <div class="row no-gutters">
-									    <div class="col-md-5">
-									      <img src="./images/gioi-thieu/page-info-1.png" class="card-img" alt="...">
-									    </div>
-									    <div class="col-md-7">
-									      <div class="card-body">
-									        <h5 class="card-title">QR Order “Đỉnh cao” ăn uống thời...</h5>
-									        <p class="card-text calendar"><i class="far fa-calendar-alt mr-2"></i><small>09/09/2019</small></p>
-									        <p class="card-text">Một trào lưu ăn uống thông minh vừa ra mắt trên thị trường, hứa</p>
-									      </div>
-									    </div>
-									  </div>
-									</div>
-		        		</div>
-		        		<div class="col-md-6">
-		        			<div class="card">
-									  <div class="row no-gutters">
-									    <div class="col-md-5">
-									      <img src="./images/gioi-thieu/page-info-2.png" class="card-img" alt="...">
-									    </div>
-									    <div class="col-md-7">
-									      <div class="card-body">
-									        <h5 class="card-title">Giấc mơ nền kinh tế giao thương...</h5>
-									        <p class="card-text calendar"><i class="far fa-calendar-alt mr-2"></i><small>09/09/2019</small></p>
-									        <p class="card-text">Nguyễn Nghĩa Nhật muốn xây dựng một nền tảng hỗ trợ người bán h..............</p>
-									      </div>
-									    </div>
-									  </div>
-									</div>
-		        		</div>
-		        		<div class="col-md-6">
-		        			<div class="card">
-									  <div class="row no-gutters">
-									    <div class="col-md-5">
-									      <img src="./images/gioi-thieu/page-info-3.png" class="card-img" alt="...">
-									    </div>
-									    <div class="col-md-7">
-									      <div class="card-body">
-									        <h5 class="card-title">“Người hùng” thầm lặng đằng sau...</h5>
-									        <p class="card-text calendar"><i class="far fa-calendar-alt mr-2"></i><small>09/09/2019</small></p>
-									        <p class="card-text">Chàng trai 9x Võ Trung Hiếu chính là một trong những gương mặt .........</p>
-									      </div>
-									    </div>
-									  </div>
-									</div>
-		        		</div>
-		        		<div class="col-md-6">
-		        			<div class="card">
-									  <div class="row no-gutters">
-									    <div class="col-md-5">
-									      <img src="./images/gioi-thieu/page-info-4.png" class="card-img" alt="...">
-									    </div>
-									    <div class="col-md-7">
-									      <div class="card-body">
-									        <h5 class="card-title">QR Order “Đỉnh cao” ăn uống thời...</h5>
-									        <p class="card-text calendar"><i class="far fa-calendar-alt mr-2"></i><small>09/09/2019</small></p>
-									        <p class="card-text">Chàng trai 9x Võ Trung Hiếu chính là một trong những gương mặt .........</p>
-									      </div>
-									    </div>
-									  </div>
-									</div>
-		        		</div>
-		        	</div>
-		        </div>
-		        <div class="tab-pane" role="tabpanel" id="menu2">Thông tin doanh nghiệp không tồn tại :((</div>
-		        <div class="tab-pane" role="tabpanel" id="menu3">Thông tin công nghệ không tồn tại :((</div>
-		        <div class="tab-pane" role="tabpanel" id="menu4">Thông tin kinh doanh không tồn tại :((</div>
-		        <div class="tab-pane" role="tabpanel" id="menu5">Thông tin marketing không tồn tại :((</div>
-		        <div class="line-solid">
-								<div class="line-solid__hr"></div>
-						</div>
-		    </div>
-			</div>
-		</section>
+		<div class="container line-solid">
+			<div class="line-solid__hr"></div>
+		</div>
 		<section class="form">
 			<div class="container">
 				<div class="row form__contents">
@@ -586,9 +581,72 @@
 			<div class="footer__bottom_content">© 2020 Copyright by www.polarisvietnam.com</div>
 		</div>
 	</footer>
-	<script src="https://player.vimeo.com/api/player.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+	<script src="./js/owl-carousel/owl.carousel.min.js"></script>
+	<script>
+		$(document).ready(function(){
+      $('.ui-stores__carousel .owl-carousel').owlCarousel({
+          loop:true,
+          margin:13,
+          autoplay: true,
+          autoplaySpeed: 200,
+          responsiveClass:true,
+          autoplayHoverPause: true,
+          nav: true,
+					dots: false,
+					navText: ['<span class="fas fa-chevron-left fa-1x"></span>','<span class="fas fa-chevron-right fa-1x"></span>'],
+          responsive:{
+            0:{
+              items:1,
+              autoHeight:true
+            },
+            400:{
+              items:2,
+              autoHeight:true
+            },
+            600:{
+              items:3,
+              autoHeight:true
+            },
+            1000:{
+              items:6,
+              autoHeight:true
+            }
+          }
+      });
+
+      $('.successes__carousel .owl-carousel').owlCarousel({
+          loop:true,
+          margin:13,
+          autoplay: true,
+          autoplaySpeed: 200,
+          responsiveClass:true,
+          autoplayHoverPause: true,
+          nav: true,
+					dots: false,
+					navText: ['<span class="fas fa-chevron-left fa-1x"></span>','<span class="fas fa-chevron-right fa-1x"></span>'],
+          responsive:{
+            0:{
+              items:1,
+              autoHeight:true
+            },
+            400:{
+              items:2,
+              autoHeight:true
+            },
+            600:{
+              items:3,
+              autoHeight:true
+            },
+            1000:{
+              items:3,
+              autoHeight:true
+            }
+          }
+      })
+  });
+	</script>
 </body>
 </html>

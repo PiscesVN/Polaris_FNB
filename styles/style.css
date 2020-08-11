@@ -56,6 +56,10 @@ header {
 }
 
 a.nav-bar__btn {
+	background-color: #d43419;
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
   float: right;
   margin-top: 10px;
   width: 60%;
