@@ -1,0 +1,104 @@
+section.banner{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+section.rules{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+section.rules .card .card-header{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+section.rules .card .card-body a{
+	text-decoration: underline;
+	color: #01994e;
+	font-weight: bold;
+}
+
+section.rewards{
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+section.rewards .card .card-header{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+section.banner-img-01, section.banner-img-02{
+	margin-bottom: 90px;
+}
+
+/*section form*/
+
+section.form{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+section.form .form__contents{
+	border-radius: 10px;
+	padding: 90px 40px 90px 40px;
+	background-color: #f2f5fa;
+}
+
+section.form .form__box{
+	background-color: white;
+	border-radius: 20px;
+	padding: 50px;
+	-webkit-box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+	-moz-box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+	box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+}
+
+section.form .form__box .form__box__title{
+	text-align: center;
+}
+
+section.form .form__box .form__box__title .form__box__title_item{
+	display: inline;
+	text-transform: uppercase;
+}
+
+section.form .form__box .form__box__title .form__box__title_item.item-req{
+	color: #01994e;
+	font-weight: bold;
+}
+
+section.form .form__box .form__input input, section.form .form__box .form__input .input-group{
+	margin-bottom: 20px;
+}
+section.form .form__box .form__input .line-dashed{
+	text-align: -webkit-center;
+	margin-bottom: 20px;
+}
+
+section.form .form__box .form__input .line-dashed .line-dashed__hr{
+	border-top: 1px dashed #badcd5;
+	width: 100px;
+}
+section.form .form__box .form__input .form__input__submit{
+	text-transform: uppercase;
+	color: white;
+	font-weight: bold;
+	background-color: #d43419;
+	padding-top: 11px;
+  padding-bottom: 11px;
+}
+
+section.form .form__box .form__input .form__contact_info p{
+	font-weight: bold;
+	color: #d43419;
+}
+section.form .form__contents .form__right{
+	text-align: center;
+	margin: auto;
+}
+
+@media (max-width: 480px){
+	section.form .form__contents{
+		padding-top: 90px; 
+    padding-bottom: 90px;
+    padding: 0;
+	}
+}
+/*end section form

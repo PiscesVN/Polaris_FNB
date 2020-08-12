@@ -1,0 +1,54 @@
+section.page-title{
+	background-image: url(../images/update-feature/bg.png);
+	object-position: center;
+	object-fit: cover;
+	height: 300px;
+	display: flex;
+	align-items: center;
+	color: white;
+}
+section.page-title h1{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+section.dropdown{
+	margin-top: 60px;
+	margin-bottom: 30px;
+}
+section.dropdown .dropdown__box{
+	display: flex;
+	background-color: #d43419;
+	border-radius: 5px;
+	padding: 10px;
+	padding-left: 25px;
+	align-items: center;
+}
+section.dropdown .dropdown__box h5{
+	color: white;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+section.dropdown .dropdown__box .form-group{
+	width: 70%;
+	margin: auto;
+}
+
+section.updates .card .card-body .right{
+	margin: auto;
+}
+section.updates .card .card-body li{
+	line-height: 33px;
+}
+section.updates nav{
+	display: inline-block;
+}
+section.updates nav a{
+	color: black;
+}
+section.banner-img{
+	margin-bottom: 80px;
+}
+section.banner-img .text-info p{
+	margin: auto;
+}
