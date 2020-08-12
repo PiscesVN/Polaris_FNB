@@ -1,0 +1,19 @@
+.banner-news {
+  background-image: url('../images/tin-tuc/06_TinTuc1.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.banner-news-title {
+    padding-top: 11%;
+    padding-bottom: 8%;
+}
+p.card-text {
+    margin-top: 2%;
+}
+.card-group {
+    margin-bottom: 9%;
+}
+
+section#section2 {
+    margin-top: 5%;
+}
