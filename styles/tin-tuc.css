@@ -1,3 +1,7 @@
+@font-face{
+	font-family: iCiel Rukola;
+	src: url(../fonts/iCiel Rukola.ttf);
+}
 .banner-news {
   background-image: url('../images/tin-tuc/06_TinTuc1.jpg');
   background-size: 100%;
@@ -112,5 +116,84 @@ color: #00000057;
 	}
 	span.date {
 		font-size: 13px;
+	}
+}
+
+img.images-detail {
+    width: 100%;
+    padding: 3%;
+}
+b.text-gray {
+    color: gray;
+}
+.card-body-detail {
+    background-color: #F2F5FA;
+}
+.card-detail {
+	border: 0;
+}
+.group-btn {
+	margin: 2%;
+    display: inline;
+ }
+
+button.btn.btn-secondary.color {
+    background-color: #F2F5FA;
+    color: black;
+    border: 0;
+}
+.container.detail-info {
+    border-radius: 15px;
+    border: 1px solid #383e3b1f;
+    padding: 14px;
+    background-color: #F2F5FA;
+}
+.boder-two {
+    border-radius: 25px;
+    border: 1px dashed gray;
+    padding: 16px;
+}
+.detail-info__title {
+    padding-top: 6rem;
+    font-size: 23px;
+    text-align: center;
+}
+
+p.teplephone {
+    border: 1px dashed #000;
+    padding: 1rem;
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: auto;
+    border-radius: 40px;
+    margin-top: 2%;
+}
+.text-green {
+	color: green;
+	font-size: 18px;
+}
+p.detail-link {
+    text-align: center;
+    margin-top: 3%;
+}
+
+@media (max-width: 991px){
+	p.teplephone {
+		width: 85%;
+	}
+}
+@media (max-width: 767px){
+	p.teplephone {
+		width: 100%;
+	}
+}
+@media (max-width: 510px){
+	p.teplephone {
+		font-size: 14px;
+		width: 83%;
+	}
+	.detail-info__title {
+		font-size: 16px;
 	}
 }
