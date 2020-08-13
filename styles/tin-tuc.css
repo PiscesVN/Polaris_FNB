@@ -3,9 +3,11 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-.banner-news-title {
-    padding-top: 11%;
-    padding-bottom: 8%;
+h1.banner-news-title__titile-banner {
+    padding-top: 7%;
+}
+h5.banner-news-title__sub-title {
+    padding-bottom: 7%;
 }
 p.card-text {
     margin-top: 2%;
@@ -15,5 +17,100 @@ p.card-text {
 }
 
 section#section2 {
-    margin-top: 5%;
+    margin-top: 4%;
+}
+
+.row.nav_bar_news {
+    margin-bottom: 3%;
+}
+
+ul.nav_bar_news__list {
+    display: block;
+    margin: auto;
+    padding: 1%;
+    background-color: #f8f8f8f8;
+}
+li.nav_bar_news__list__item {
+    display: inline;
+    margin-right: 3%;
+}
+img.card-img-card {
+    width: 100%;
+    margin-top: 15px;
+}
+.nav_bar_news__list__item__link {
+color: #00000057;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.time {
+    color: #43a774;
+}
+
+@media (max-width: 767px){
+	h1.banner-news-title__titile-banner {
+	    padding-bottom: 0%;
+	    padding-top: 6%;
+	    font-size: 25px;
+	}
+	.banner-news-title {
+	    padding-top: 0%;
+	    padding-bottom: 0%;
+	}
+}
+@media (max-width: 575px){
+	h1.banner-news-title__titile-banner {
+	    padding-bottom: 0%;
+	    padding-top: 3%;
+	    font-size: 25px;
+	}
+	.banner-news-title {
+	    padding-top: 0%;
+	    padding-bottom: 0%;
+	}
+}
+@media (max-width: 425px){
+	h1.banner-news-title__titile-banner {
+	    padding-bottom: 0%;
+	    padding-top: 3%;
+	    font-size: 21px;
+	}
+	h5.banner-news-title__sub-title {
+	    padding-bottom: 1%;
+	    padding-top: 0%;
+	    font-size: 14px;
+	}
+	.banner-news-title {
+	    padding-top: 0%;
+	    padding-bottom: 0%;
+	}
+}
+@media (max-width: 320px){
+	h1.banner-news-title__titile-banner {
+	    padding-bottom: 0%;
+	    padding-top: 2%;
+	    font-size: 18px;
+	}
+	h5.banner-news-title__sub-title {
+	    padding-bottom: 1%;
+	    padding-top: 0%;
+	    font-size: 13px;
+	}
+	.banner-news-title {
+	    padding-top: 0%;
+	    padding-bottom: 0%;
+	}
+}
+@media (min-width: 768px) and (max-width: 991px){
+	h5.card-title {
+    	font-size: 13px;
+	}
+	span.categorical {
+    	font-size: 13px;
+	}
+	span.date {
+		font-size: 13px;
+	}
 }
