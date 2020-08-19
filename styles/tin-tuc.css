@@ -1,21 +1,26 @@
-@font-face{
-	font-family: iCiel Rukola;
-	src: url(../fonts/iCiel Rukola.ttf);
+@font-face {
+    font-family: iCiel Rukola;
+    src: url(../fonts/iCiel Rukola.ttf);
 }
+
 .banner-news {
-  background-image: url('../images/tin-tuc/06_TinTuc1.jpg');
-  background-size: 100%;
-  background-repeat: no-repeat;
+    background-image: url('../images/tin-tuc/06_TinTuc1.jpg');
+    background-size: 100%;
+    background-repeat: no-repeat;
 }
+
 h1.banner-news-title__titile-banner {
     padding-top: 7%;
 }
+
 h5.banner-news-title__sub-title {
     padding-bottom: 7%;
 }
+
 p.card-text {
     margin-top: 2%;
 }
+
 .card-group {
     margin-bottom: 9%;
 }
@@ -34,125 +39,138 @@ ul.nav_bar_news__list {
     padding: 1%;
     background-color: #f8f8f8f8;
 }
+
 li.nav_bar_news__list__item {
     display: inline;
     margin-right: 3%;
 }
+
 img.card-img-card {
     width: 100%;
     margin-top: 15px;
 }
+
 .nav_bar_news__list__item__link {
-color: #00000057;
+    color: #00000057;
     font-size: 16px;
     font-weight: bold;
-
 }
 
 .time {
     color: #43a774;
 }
 
-@media (max-width: 767px){
-	h1.banner-news-title__titile-banner {
-	    padding-bottom: 0%;
-	    padding-top: 6%;
-	    font-size: 25px;
-	}
-	.banner-news-title {
-	    padding-top: 0%;
-	    padding-bottom: 0%;
-	}
+@media (max-width: 767px) {
+    h1.banner-news-title__titile-banner {
+        padding-bottom: 0%;
+        padding-top: 6%;
+        font-size: 25px;
+    }
+    .banner-news-title {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
 }
-@media (max-width: 575px){
-	h1.banner-news-title__titile-banner {
-	    padding-bottom: 0%;
-	    padding-top: 3%;
-	    font-size: 25px;
-	}
-	.banner-news-title {
-	    padding-top: 0%;
-	    padding-bottom: 0%;
-	}
+
+@media (max-width: 575px) {
+    h1.banner-news-title__titile-banner {
+        padding-bottom: 0%;
+        padding-top: 3%;
+        font-size: 25px;
+    }
+    .banner-news-title {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
 }
-@media (max-width: 425px){
-	h1.banner-news-title__titile-banner {
-	    padding-bottom: 0%;
-	    padding-top: 3%;
-	    font-size: 21px;
-	}
-	h5.banner-news-title__sub-title {
-	    padding-bottom: 1%;
-	    padding-top: 0%;
-	    font-size: 14px;
-	}
-	.banner-news-title {
-	    padding-top: 0%;
-	    padding-bottom: 0%;
-	}
+
+@media (max-width: 425px) {
+    h1.banner-news-title__titile-banner {
+        padding-bottom: 0%;
+        padding-top: 3%;
+        font-size: 21px;
+    }
+    h5.banner-news-title__sub-title {
+        padding-bottom: 1%;
+        padding-top: 0%;
+        font-size: 14px;
+    }
+    .banner-news-title {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
 }
-@media (max-width: 320px){
-	h1.banner-news-title__titile-banner {
-	    padding-bottom: 0%;
-	    padding-top: 2%;
-	    font-size: 18px;
-	}
-	h5.banner-news-title__sub-title {
-	    padding-bottom: 1%;
-	    padding-top: 0%;
-	    font-size: 13px;
-	}
-	.banner-news-title {
-	    padding-top: 0%;
-	    padding-bottom: 0%;
-	}
+
+@media (max-width: 320px) {
+    h1.banner-news-title__titile-banner {
+        padding-bottom: 0%;
+        padding-top: 2%;
+        font-size: 18px;
+    }
+    h5.banner-news-title__sub-title {
+        padding-bottom: 1%;
+        padding-top: 0%;
+        font-size: 13px;
+    }
+    .banner-news-title {
+        padding-top: 0%;
+        padding-bottom: 0%;
+    }
 }
-@media (min-width: 768px) and (max-width: 991px){
-	h5.card-title {
-    	font-size: 13px;
-	}
-	span.categorical {
-    	font-size: 13px;
-	}
-	span.date {
-		font-size: 13px;
-	}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h5.card-title {
+        font-size: 13px;
+    }
+    span.categorical {
+        font-size: 13px;
+    }
+    span.date {
+        font-size: 13px;
+    }
 }
 
 img.images-detail {
     width: 100%;
     padding: 3%;
 }
+
 b.text-gray {
     color: gray;
 }
+
 .card-body-detail {
     background-color: #F2F5FA;
 }
+
 .card-detail {
-	border: 0;
+    border: 0;
 }
+
 .group-btn {
-	margin: 2%;
+    margin: 2%;
     display: inline;
- }
+}
 
 button.btn.btn-secondary.color {
     background-color: #F2F5FA;
     color: black;
     border: 0;
 }
+
 .container.detail-info {
     border-radius: 15px;
     border: 1px solid #383e3b1f;
     padding: 14px;
     background-color: #F2F5FA;
 }
+
 .boder-two {
     border-radius: 25px;
     border: 1px dashed gray;
     padding: 16px;
 }
+
 .detail-info__title {
     padding-top: 6rem;
     font-size: 23px;
@@ -169,31 +187,86 @@ p.teplephone {
     border-radius: 40px;
     margin-top: 2%;
 }
+
 .text-green {
-	color: green;
-	font-size: 18px;
+    color: green;
+    font-size: 18px;
 }
+
 p.detail-link {
     text-align: center;
     margin-top: 3%;
 }
 
-@media (max-width: 991px){
-	p.teplephone {
-		width: 85%;
-	}
+@media (max-width: 991px) {
+    p.teplephone {
+        width: 85%;
+    }
 }
-@media (max-width: 767px){
-	p.teplephone {
-		width: 100%;
-	}
+
+@media (max-width: 767px) {
+    p.teplephone {
+        width: 100%;
+    }
 }
-@media (max-width: 510px){
-	p.teplephone {
-		font-size: 14px;
-		width: 83%;
-	}
-	.detail-info__title {
-		font-size: 16px;
-	}
+
+@media (max-width: 510px) {
+    p.teplephone {
+        font-size: 14px;
+        width: 83%;
+    }
+    .detail-info__title {
+        font-size: 16px;
+    }
 }
+
+
+/* Responsive 750px (Iphone 6) */
+
+@media (max-width: 750px) {
+    div.top-bar {
+        display: block;
+    }
+    div.top-bar div.top-bar_row {
+        position: relative;
+    }
+    div.top-bar div.top-bar__language__group {
+        display: flex !important;
+        position: absolute;
+        width: 170px;
+        justify-content: space-between;
+        right: 40px;
+    }
+    .container,
+    .container-sm {
+        max-width: 670px;
+    }
+    div.frame {
+        margin-top: 40px;
+    }
+    nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link,
+    nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span {
+        font-size: 2rem;
+        font-weight: lighter;
+    }
+    footer div.container div.footer__title {
+        line-height: 57px;
+        margin-bottom: 0;
+        vertical-align: baseline;
+    }
+    footer div.container div.footer__above_description {
+        padding-right: 70px;
+    }
+    footer div.container img.img-cong-thuong {
+        position: absolute;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    footer div.container img {
+        margin-bottom: 30px;
+    }
+}
+
+
+/* End Responsive */
