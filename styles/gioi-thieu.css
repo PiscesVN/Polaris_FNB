@@ -3,7 +3,20 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../fonts/Roboto/Roboto-Thin.ttf);
+} 
 
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+} 
 section.banner{
 	position: relative;
 }
@@ -45,9 +58,10 @@ section.banner .banner__contents .banner__group_btn button{
 	padding: 10px;
 	border-radius: 40px;
 	font-size: 15px;
-	font-weight: bold;
 	padding-left: 30px;
 	padding-right: 30px;
+	font-family: Roboto;
+	border: 1px solid;
 }
 
 section.banner .banner__contents .banner__group_btn button.banner__btn_register{
@@ -133,9 +147,16 @@ section.video-info .video-info__title h2{
 	font-weight: normal;
 }
 
+section.video-info .video-info__title.text-center.col-md-8.offset-md-2 {
+	font-family: Roboto-Light;
+}
+
 /*end section video*/
 
 /*section trens*/
+section.trens .trens__title__large {
+    font-family: Roboto-Light;
+}
 
 section.trens{
 	margin-top: 90px;
@@ -147,11 +168,17 @@ section.trens .container-fluid{
 }
 
 section.trens .trens__title h2{
-	font-weight: normal;
+	font-size: 34px;
 }
 
 section.trens .trens__title small{
 	letter-spacing: 1.5px;
+}
+
+section.trens .trens__title__small.mt-3 {
+    font-family: Roboto;
+    font-size: 17px;
+    color: #8a8a8a;
 }
 
 section.trens .trens__contents .card{
@@ -170,8 +197,14 @@ section.trens .trens__contents .card .card-body a{
 	font-weight: bold;
 }
 
+section.trens .trens__contents .card .card-body .card-title {
+    margin-bottom: .75rem;
+    font-family: Roboto;
+    font-weight: 600;
+}
+
 section.trens .trens__contents .card .card-body .card-text{
-	color: #bbbdc0;
+	color: #8a8a8a;
 }
 
 @media (min-width: 768px){
@@ -195,6 +228,8 @@ section.platforms .platforms__title h5{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
+	font-family: Roboto;
+	margin-bottom: 3%;
 }
 
 /*end section platform*/
