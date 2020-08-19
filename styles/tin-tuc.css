@@ -193,6 +193,14 @@ p.teplephone {
     font-size: 18px;
 }
 
+section.form div.row .hot-new_mobile {
+    display: none;
+}
+
+section#section4 div.container div.row .hot-new_mobile {
+    display: none;
+}
+
 p.detail-link {
     text-align: center;
     margin-top: 3%;
@@ -248,6 +256,23 @@ p.detail-link {
     nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span {
         font-size: 2rem;
         font-weight: lighter;
+    }
+    section#section2 div.container div.row div.hot-new_desktop {
+        display: none;
+    }
+    section.form div.row .hot-new_mobile {
+        margin-top: 80px;
+        display: block;
+    }
+    section#section4 div.container div.row .hot-new_mobile {
+        margin-top: 80px;
+        display: block;
+    }
+    #section3 {
+        margin-top: 60px;
+    }
+    section#section2 div.container div.row div div.card-detail div.card-body-detail {
+        margin-bottom: 60px;
     }
     footer div.container div.footer__title {
         line-height: 57px;
