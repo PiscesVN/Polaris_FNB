@@ -237,7 +237,7 @@ section.platforms .platforms__title h5{
 /*section lỉne*/
 
 section.line-dashed .line-dashed__hr{
-	border-top: 1px dashed #badcd5;
+	border-top: 1px dashed #f0f0ef;
 	width: 200px;
 }
 
@@ -260,15 +260,17 @@ section.customers .customers__title h5{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
+	font-size: 18px;
 }
 
 section.customers .customers__logos .customers__box-logo{
 	position: relative;
 	text-align: center;
-	border: 1px solid #f0f0ef;
+	border: 2px solid #f0f0ef;
 	width: 84px;
 	height: 84px;
 	margin-top: 30px;
+	overflow: hidden;
 }
 
 section.customers .customers__logos .customers__box-logo img{
@@ -303,7 +305,8 @@ section.message-customer .message-customer__message p{
 
 section.message-customer .message-customer__info .message-customer__name p{
 	font-weight: bold;
-	font-size: 20px;
+	font-size: 18px;
+	font-family: Roboto;
 }
 
 section.message-customer .message-customer__info .message-customer__position p{
@@ -317,6 +320,15 @@ section.message-customer .message-customer__info .message-customer__see-more a{
 	color: #31ab70;
 	font-weight: bold;
 	text-decoration: underline;
+    font-family: Roboto;
+}
+
+section.message-customer .message-customer__message, section.message-customer .message-customer__position p {
+    font-family: Roboto;
+}
+
+section.message-customer .message-customer__image-box img {
+    border-radius: 50%;
 }
 
 /*end message customer*/
@@ -325,6 +337,11 @@ section.message-customer .message-customer__info .message-customer__see-more a{
 
 section.page-infomations .page-infomations__title h2{
 	font-weight: normal;
+    font-family: Roboto-Light;
+}
+
+section.page-infomations .page-infomations__title.text-center {
+    width: 100%;
 }
 
 section.page-infomations .page-infomations__title .page-infomations__line{
@@ -347,7 +364,8 @@ section.page-infomations .nav a.nav-link{
 	margin-right: 15px;
 	margin-left: 15px;
 	padding-left: 36px;
-  padding-right: 36px;
+  	padding-right: 36px;
+  	border-radius: 5px;
 }
 
 section.page-infomations .nav .nav-item{
@@ -376,6 +394,8 @@ section.page-infomations .tab-content .card .card-body .card-text.calendar,
 section.page-infomations .tab-content .card .card-body .card-text.calendar small{
 	color: #059044;
 }
+
+
 /*end section page infomation*/
 
 /*section lỉne solid */
