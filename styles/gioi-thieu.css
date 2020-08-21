@@ -351,21 +351,20 @@ section.page-infomations .page-infomations__title .page-infomations__line{
 }
 
 section.page-infomations .page-infomations__title .line{
-	border-bottom: 1px solid #badcd5;
+	border-bottom: 1px solid #b7b6b6;
 	width: 100px;
 }
 
 section.page-infomations .nav a.nav-link{
 	text-transform: uppercase;
-	padding: 1rem 1rem;
 	background-color: #f4f7fc;
 	border-color: #9298a2;
 	color: #97a3b7;
 	margin-right: 15px;
-	margin-left: 15px;
-	padding-left: 36px;
-  	padding-right: 36px;
-  	border-radius: 5px;
+	font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    border: 1px solid #dcdcdcb5;
 }
 
 section.page-infomations .nav .nav-item{
@@ -386,8 +385,9 @@ section.page-infomations .tab-content .card{
 }
 
 section.page-infomations .tab-content .card .card-body .card-title{
-	font-size: 16px;
-	font-weight: bold;
+	font-size: 17px;
+    font-weight: bold;
+    font-family: Roboto;
 }
 
 section.page-infomations .tab-content .card .card-body .card-text.calendar,
@@ -395,7 +395,28 @@ section.page-infomations .tab-content .card .card-body .card-text.calendar small
 	color: #059044;
 }
 
+section.page-infomations .tab-content .card .card-img {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
 
+section.page-infomations .tab-content .card .card-body .card-text.calendar {
+    margin-bottom: 4px;
+}
+
+.bg-form {
+	background-image:  url(../images/);
+}
+
+/*end section page infomation*/
+
+@media (max-width: 750px) {
+	.bg-form {
+	background-image: none;
+}
+}
 /*end section page infomation*/
 
 /*section lỉne solid */
@@ -409,9 +430,13 @@ section.page-infomations .line-solid .line-solid__hr{
 	border-top: 1px solid #badcd5;
 }
 
+section.page-infomations ul.nav.nav-fill {
+    padding: 0 45px;
+}
+
 @media (max-width: 767px){
 	section.page-infomations .nav{
-		display: block;
+		/*display: block;*/
 	}
 }
 
