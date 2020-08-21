@@ -207,6 +207,16 @@ section.trens .trens__contents .card .card-body .card-text{
 	color: #8a8a8a;
 }
 
+section.trens .trens__contents p.card-text.block-ellipsis {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 @media (min-width: 768px){
 	section.trens .trens__contents .col-md-2{
 		-ms-flex: 0 0 20% !important;
@@ -365,6 +375,7 @@ section.page-infomations .nav a.nav-link{
     padding: 10px 10px;
     border-radius: 4px;
     border: 1px solid #dcdcdcb5;
+    font-weight: 500;
 }
 
 section.page-infomations .nav .nav-item{
@@ -377,11 +388,14 @@ section.page-infomations .nav a.nav-link.active{/*97a3b7  */
 }
 
 section.page-infomations .tab-content .card .card-body{
+	padding: 1rem;
 	padding-bottom: 0;
+	font-family: Roboto;
 }
 
 section.page-infomations .tab-content .card{
 	margin-top: 30px;
+	border-radius: 0;
 }
 
 section.page-infomations .tab-content .card .card-body .card-title{
@@ -410,6 +424,15 @@ section.page-infomations .tab-content .card .card-body .card-text.calendar {
 	background-image:  url(../images/);
 }
 
+section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
+    display: -webkit-box;
+    max-width: 100%;
+    margin: 0 auto;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
 /*end section page infomation*/
 
 @media (max-width: 750px) {
@@ -427,7 +450,7 @@ section.page-infomations .line-solid{
 }
 
 section.page-infomations .line-solid .line-solid__hr{
-	border-top: 1px solid #badcd5;
+	border-top: 1px solid #dcdcdcb5;
 }
 
 section.page-infomations ul.nav.nav-fill {
@@ -454,6 +477,7 @@ section.form .form__contents{
 	border-radius: 10px;
 	padding: 90px 40px 90px 40px;
 	background-color: #f2f5fa;
+	font-family: Roboto;
 }
 
 section.form .form__contents .form__title h2{
@@ -464,9 +488,9 @@ section.form .form__box{
 	background-color: white;
 	border-radius: 20px;
 	padding: 50px;
-	-webkit-box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
-	-moz-box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
-	box-shadow: 0px 5px 12px 10px rgba(219,224,232,1);
+	-webkit-box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+	-moz-box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+	box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
 }
 
 section.form .form__box .form__box__title{
@@ -485,7 +509,7 @@ section.form .form__box .form__box__title .form__box__title_item.item-req{
 
 section.form .form__box .form__box__description p{
 	color: #cbc8c8;
-	font-size: 18px;
+	font-size: 17px;
 }
 
 section.form .form__box .form__input input, section.form .form__box .form__input .input-group{
@@ -504,6 +528,11 @@ section.form .form__box .form__input .form__input__submit{
 section.form .form__box .form__input .form__contact_info p{
 	font-weight: bold;
 	color: #d43419;
+}
+
+section.form .form__title.w-100.text-center.mb-5 h2 {
+    font-family: Roboto-Light;
+    font-size: 36px;
 }
 
 @media (max-width: 480px){
