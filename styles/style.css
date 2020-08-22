@@ -31,17 +31,17 @@ header a {
 }
 
 .top-bar {
-  height: 40px;
+  height: 50px;
   background-color: #185f3c;
   color: #fff;
   padding: 9px;
   font-family: Roboto-Thin;
 }
-img.top-bar__thumnail {
+/*img.top-bar__thumnail {
   height: 19px;
   margin-bottom: 6px;
   padding-left: 2rem;
-}
+}*/
 
 h6.top-bar__language {
   float: right;
@@ -355,3 +355,57 @@ ul.navbar-nav.mr-auto {
   text-align: center;
 }
 
+.nav-bar__logo img {
+    width: 50%;
+    margin-top: 1%;
+}
+
+img.nav-bar__links {
+  max-width: 40%;
+}
+
+
+.top-bar i.fas.fa-sort-down {
+    position: absolute;
+}
+
+@media (min-width: 751px) {
+  img.top-bar__thumnail {
+    height: 19px;
+    margin-bottom: 6px;
+    padding-left: 2rem;
+  }
+}
+
+@media (max-width: 750px) {
+  img.top-bar__thumnail {
+    height: 21px;
+    padding-left: 18%;
+    margin-bottom: 6px;
+  }
+  .top-bar .col-lg-2.col-md-3.col-3 {
+    padding-left: 0;
+  }
+  .nav-bar__logo img {
+    width: 50%;
+    margin-top: -3%;
+  }
+  img.nav-bar__links {
+    max-width: 40%;
+    margin-top: -6%;
+  }
+  header a.nav-bar__btn {
+    margin-right: 0px;
+    font-size: 15px;
+  }
+
+  button.navbar-toggler {
+    padding-top: 13px;
+    padding-right: 0px;
+    float: right;
+  }
+}
+
+.top-bar .container .row {
+    padding-top: 6px;
+}

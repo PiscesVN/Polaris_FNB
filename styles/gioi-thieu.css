@@ -16,7 +16,18 @@
 @font-face {
   font-family: Roboto-Light;
   src: url(../fonts/Roboto/Roboto-Light.ttf);
-} 
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@media (max-width: 750px){
+	div.top-bar {
+		display: block;
+	}
+}
 section.banner{
 	position: relative;
 }
@@ -34,13 +45,16 @@ section.banner .banner__contents{
 }
 
 section.banner .banner__title h1{
-	font-weight: bold;
-	line-height: 55px;
+	font-family: Roboto-Bold;
+  font-size: 43px;
+  font-weight: bold;
+  line-height: 57px;
 }
 
 section.banner .banner__description p{
-	font-size: 18px;
-	line-height: 35px;
+	  font-family: Roboto;
+    font-size: 20px;
+    line-height: 37px;
 }
 
 section.banner .banner__description a{
@@ -62,12 +76,23 @@ section.banner .banner__contents .banner__group_btn button{
 	padding-right: 30px;
 	font-family: Roboto;
 	border: 1px solid;
+	width: 42%;
+	padding-top: 3%;
+  padding-bottom: 3%;
+}
+
+button.banner__btn_ask {
+    background-color: #DEF5EC;
 }
 
 section.banner .banner__contents .banner__group_btn button.banner__btn_register{
 	color: white;
 	background-color: #d43419;
 	border-color: #d43419;
+	font-family: Roboto-Light;
+  font-weight: 900;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 section.banner .banner__contents .banner__group_btn button:focus{
@@ -81,10 +106,10 @@ section.banner .banner__contents .banner__group_btn button:focus{
 	}
 }
 @media (min-width: 480px) and (max-width: 767px){
-	section.banner .banner__title h1{
+	/*section.banner .banner__title h1{
 		font-size: 24px;
 		line-height: 10px;
-	}
+	}*/
 
 	section.banner .banner__description p{
 		font-size: 12px;
@@ -143,8 +168,10 @@ section.banner .banner__contents .banner__group_btn button:focus{
 section.video-info{
 	margin-top: 90px;
 }
-section.video-info .video-info__title h2{
-	font-weight: normal;
+section.video-info .video-info__title h1{
+	font-family: Roboto-Light;
+  font-size: 38px;
+  font-weight: normal;
 }
 
 section.video-info .video-info__title.text-center.col-md-8.offset-md-2 {
@@ -165,6 +192,10 @@ section.trens .container-fluid{
 	background-color: #f2f5fa;
 	padding-top: 60px;
 	padding-bottom: 60px;
+}
+
+section.trens img.card-img-top.img-fluid {
+    border-radius: 0;
 }
 
 section.trens .trens__title h2{
@@ -191,6 +222,10 @@ section.trens .trens__contents .card .card-body{
 	padding:0;
 }
 
+.trens__title__large h1 {
+    font-size: 35px;
+}
+
 section.trens .trens__contents .card .card-body a{
 	color: #31ab70;
 	text-decoration: underline;
@@ -199,7 +234,7 @@ section.trens .trens__contents .card .card-body a{
 
 section.trens .trens__contents .card .card-body .card-title {
     margin-bottom: .75rem;
-    font-family: Roboto;
+    font-family: Roboto-Bold;
     font-weight: 600;
 }
 
@@ -322,15 +357,16 @@ section.message-customer .message-customer__info .message-customer__name p{
 section.message-customer .message-customer__info .message-customer__position p{
 	font-style: italic;
 	color: #bbbdc0;
-	font-size: 16px;
+	font-size: 15px;
 	margin-bottom: 70px;
 }
 
 section.message-customer .message-customer__info .message-customer__see-more a{
-	color: #31ab70;
-	font-weight: bold;
-	text-decoration: underline;
-    font-family: Roboto;
+		font-size: 15px;
+    color: #31ab70;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Roboto-Light;
 }
 
 section.message-customer .message-customer__message, section.message-customer .message-customer__position p {
@@ -345,9 +381,10 @@ section.message-customer .message-customer__image-box img {
 
 /*section page infomation*/
 
-section.page-infomations .page-infomations__title h2{
+section.page-infomations .page-infomations__title h1{
 	font-weight: normal;
-    font-family: Roboto-Light;
+  font-family: Roboto-Light;
+  font-size: 37px;
 }
 
 section.page-infomations .page-infomations__title.text-center {
@@ -509,7 +546,7 @@ section.form .form__box .form__box__title .form__box__title_item.item-req{
 
 section.form .form__box .form__box__description p{
 	color: #cbc8c8;
-	font-size: 17px;
+	font-size: 18px;
 }
 
 section.form .form__box .form__input input, section.form .form__box .form__input .input-group{
@@ -543,5 +580,208 @@ section.form .form__title.w-100.text-center.mb-5 h2 {
 	}
 }
 
+input.form-control::placeholder {
+    color: black;
+}
 
-/*end section form
+select.form-control {
+    font-style: italic;
+}
+
+/*end section form*/
+
+
+/*footer*/
+
+
+footer .footer__intro {
+    margin-left: 15px;
+    width: 25%;
+}
+
+.col-md-2.col-sm-8.service {
+    max-width: 14%;
+}
+.col-md-3.col-sm-4.about_us {
+    max-width: 19%;
+}
+footer .footer__connect {
+    width: 24%;
+}
+
+@media (min-width: 751px) {
+ 
+}
+
+@media (max-width: 750px) {
+  .title__banner {
+    font-family: Roboto;
+    margin-top: 29rem;
+	}
+  .container.title__banner .col-sm-12 {
+  	padding: 6rem;
+  }
+  section.banner .banner__title h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+	}
+
+	.banner__description.mt-4 {
+    padding-left: 7%;
+    padding-right: 7%;
+	}
+
+	section.banner .banner__description a {
+    font-size: 17px;
+	}
+
+	section.banner .banner__contents .banner__group_btn button {
+    border-color: #d43419;
+    color: #d43419;
+    font-weight: 900;
+    padding: 3%;
+	}
+
+	section.banner .banner__description p {
+    font-size: 19px;
+    line-height: 29px;
+    text-align: center;
+	}
+
+	section.video-info .video-info__title h1 {
+    font-family: Roboto-Light;
+    font-size: 33px;
+    font-weight: normal;
+	}
+	
+	.trens__title__large h1 {
+    font-size: 33px;
+    padding-left: 12%;
+    padding-right: 11%;
+	}
+
+	section.trens img.card-img-top.img-fluid {
+    border-radius: 0;
+    padding-left: 8%;
+    padding-right: 8%;
+	}
+
+	section.trens .trens__contents .card .card-body {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 5%;
+	}
+
+	section.trens .trens__contents p.card-text.block-ellipsis {
+    display: block;
+    display: -webkit-box;
+    max-width: 100%;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    padding-left: 7%;
+    padding-right: 7%;
+    text-overflow: ellipsis;
+	}
+	section.platforms, section.customers,
+	section.message-customer, section.page-infomations .line-solid
+	 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+	}
+	section.form .form__title.w-100.text-center.mb-5 h2 {
+    font-family: Roboto-Light;
+    font-size: 33px;
+	}
+	section.form .form__contents {
+    border-radius: 10px;
+    padding: 60px 40px 60px 40px;
+    background-color: #f2f5fa;
+    font-family: Roboto;
+	}
+
+	footer .footer__above .footer__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-bottom: 6px;
+    font-size: 15px;
+	}
+
+	footer .footer__bottom {
+    height: 50px;
+    background-color: #059044;
+    margin-top: 15px;
+    color: white;
+	}
+	.row.customers__logos {
+    padding-left: 5%;
+    padding-right: 5%;
+	}
+	section.page-infomations ul.nav.nav-fill {
+    padding: 0px 90px;
+	}
+
+	section.page-infomations .tab-content .card .card-body {
+    padding: 2rem;
+    padding-bottom: 0;
+    font-family: Roboto;
+	}
+
+	.col-md-1.col-sm-2.col-4 {
+    margin-left: 1%;
+    margin-right: 2%;
+	}
+
+	section.message-customer .message-customer__message, section.message-customer .message-customer__position p {
+    font-family: Roboto;
+    padding-left: 14%;
+    padding-right: 14%;
+	}
+
+	section.message-customer .message-customer__info .message-customer__position p {
+    font-style: italic;
+    color: #bbbdc0;
+    font-size: 15px;
+    margin-bottom: 25px;
+	}
+
+	.container, .container-sm {
+    max-width: 670px;
+	}
+	section.form img.img-fluid {
+		margin-top: 9%;
+	}
+
+	footer .footer__intro {
+    margin-left: 15px;
+    width: 38%;
+	}
+
+	.footer__above_description {
+    padding-right: 9rem;
+	}
+
+	footer .footer__above .footer__above_description p {
+    margin-top: 8px;
+	}
+	.col-md-2.col-sm-8.service {
+		max-width: 66.67%;
+	}
+	.col-md-3.col-sm-4.about_us {
+    max-width: 33.33%;
+	}
+	footer div.container img.img-cong-thuong {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+	}
+	footer .footer__above .input-group.footer__email_box .form-control {
+    border-radius: 0;
+    background-color: #f2f5fa;
+    font-size: 15px;
+    padding: 3%;
+	}
+}
+
