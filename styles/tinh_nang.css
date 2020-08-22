@@ -273,6 +273,14 @@ footer .footer__bottom .footer__bottom_content{
     padding-top: 12px;
 }
 
+.col-md-2.col-sm-8.service {
+    max-width: 14%;
+}
+
+.col-md-3.col-sm-4.about_us {
+    max-width: 19%;
+}
+
 @media (max-width: 750px) {
   div.top-bar {
       display: block;

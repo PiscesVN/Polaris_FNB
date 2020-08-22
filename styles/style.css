@@ -24,7 +24,10 @@ body{
   font-family: Roboto-Light;
   src: url(../fonts/Roboto/Roboto-Light.ttf);
 } 
-
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
 
 header a {
   color: #000;
