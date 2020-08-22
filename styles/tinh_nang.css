@@ -3,32 +3,47 @@ img.banner__thumnail {
 }
 
 .overview__title {
+    font-family: Roboto-Thin;
+    font-weight: 600;
+    font-size: 33px;
     margin-top: 5rem;
     margin-bottom: 5rem;
     text-align: center;
 }
 
+.nav-bar__logo img {
+    width: 81%;
+    margin-top: -6%;
+}
+
 hr.overview__separetor {
-    margin-bottom: 5rem;
-    margin-top: 5rem;
+    margin-bottom: 90px;
+    margin-top: 90px;
 }
 
 .detail__title {
     text-align: center;
+    font-family: Roboto-Light;
+    font-size: 33px;
+    margin-bottom: 7%;
 }
 
 h2.detail__sub_title {
     display: inline;
+    font-family: Roboto-Light;
 }
 
 .detail__sub_title.especially {
     color: green;
     font-weight: 600;
+    font-family: Roboto;
 }
 
 .detail__smalltitle {
     margin-top: 4px;
+    font-family: Roboto-Light;
     color: #919398;
+    font-size: 15px;
 }
 
 .detail__separetor {
@@ -46,6 +61,7 @@ img.detail__content__small {
 .detail__content__small.description {
     padding-top: 2px;
     margin-bottom: 0px;
+    font-size: 13px;
 }
 
 .detail__content_item {
@@ -66,6 +82,7 @@ img.detail__content__small {
 
 .detail__content {
     width: 92%;
+    font-family: Roboto;
 }
 
 .detail__info {
@@ -76,6 +93,10 @@ img.detail__content__small {
 a.detail_info_link {
     color: black;
     text-decoration: underline;
+    font-family: Roboto;
+}
+a.detail_info_link h6 b, a.detail_info_link h6 i {
+    font-size: 13px;
 }
 
 .col-lg-6.col-md-6.col-12.pr-0.pl-5 {
@@ -85,13 +106,20 @@ a.detail_info_link {
 .info {
   background-image: url(../images/tinh-nang/banner3.jpg);
   margin-top: 6rem;
+  background-repeat: no-repeat;
+  padding-bottom: 4%;
 }
 
 .info__title {
     text-align: center;
+    font-family: Roboto-Light;
     color: white;
-    padding-top: 7rem;
-    font-weight: 400;
+    font-size: 35px;
+    padding-top: 4rem;
+}
+
+a.infor_menu__link.collapsed:hover {
+    text-decoration: none;
 }
 
 img.info__banner {
@@ -210,7 +238,6 @@ footer .footer__above .footer__above_description p{
 }
 
 footer .footer__above ul{
-    list-style-image: url(../images/right.png);
     list-style-position: inside;
 }
 
@@ -244,4 +271,58 @@ footer .footer__bottom{
 
 footer .footer__bottom .footer__bottom_content{
     padding-top: 12px;
+}
+
+@media (max-width: 750px) {
+  div.top-bar {
+      display: block;
+  }
+  .container, .container-sm {
+    max-width: 670px;
+  }
+  img.img-fluid.img_mobile.d-none.d-sm-block.d-md-none {
+    padding-left: 10%;
+  }
+  .detail__content__small.description {
+    padding-top: 2px;
+    margin-bottom: 0px;
+    font-size: 20px;
+  }
+  a.detail_info_link h6 b, a.detail_info_link h6 i {
+    font-size: 19px;
+  }
+  .detail__info {
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 5%;
+  }
+  .detail .col-lg-6.col-md-6.col-12.pr-0.pl-5 {
+    margin-bottom: 5%;
+    background-color: #f2f5fa;
+  }
+  .detail .col-lg-6.col-md-6.col-12.pr-0.pl-4.order-md-1.order-sm-2.nbg {
+    margin-bottom: 5%;
+  }
+  .info {
+    background-image: url(../images/tinh-nang/02_3.jpg);
+    margin-top: 6rem;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding-bottom: 10%;
+  }
+  .info__title {
+    text-align: center;
+    font-family: Roboto-Light;
+    color: white;
+    font-size: 35px;
+    padding-top: 4rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+  }
+  div.container img.img-cong-thuong {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 }

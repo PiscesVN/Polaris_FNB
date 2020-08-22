@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
   <link rel="stylesheet" type="text/css" href="styles/tinh_nang.css">
+  <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
@@ -21,10 +22,11 @@
           <h6 class="top-bar__info">&nbsp;&nbsp;Hotline: 18001084</h6>
         </div>
         <div class="col-lg-4 col-md-1 d-none d-md-block"></div>
-        <div class="col-lg-2 col-md-3 d-none d-md-block pl-4 pr-0">
-          <img src="images/tinh-nang/vietnam.png" alt="" class="top-bar__thumnail">
+        <div class="d-none d-sm-block d-md-none col-9"></div>
+        <div class="col-lg-2 col-md-3 col-3 pr-0">
+          <img src="images/vietnam.png" alt="" class="top-bar__thumnail">
           <h6 class="top-bar__language">Tiếng Việt&nbsp;
-            <i class="fas fa-sort-down"></i>
+            <i class="fas fa-sort-down top-bar__language__icon"></i>
           </h6>
         </div>
       </div>
@@ -35,7 +37,7 @@
       <div class="row">
         <div class="col-md-9 col-sm-7 col-5">
           <a href="" class="navbar-brand mobile-logo">
-            <img src="images/logo/logo.jpg" alt="" class="nav-bar__links">
+            <img src="images/logo/logo.png" alt="" class="nav-bar__links">
           </a>
         </div>
         <div class="col-md-2 col-sm-4 col-6">
@@ -51,7 +53,7 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent20">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"><a href="index.html" class="nav-link">Giới thiệu</a></li>
+        <li class="nav-item active"><a href="javascript(0)" class="nav-link">Giới thiệu</a></li>
         <li class="nav-item"><a href="tinh-nang.html" class="nav-link">Tính năng</a></li>
         <li class="nav-item"><a href="app-order.html" class="nav-link">Kênh Order</a></li>
         <li class="nav-item"><a href="bang-gia.html" class="nav-link">Bảng giá</a></li>
@@ -65,46 +67,48 @@
           <div class="col-lg-3 col-md-2">
             <div class="nav-bar__logo">
               <a href="#">
-                <img src="images/logo/logo.jpg" alt="" class="nav-bar__links">
+                <img src="images/logo/logo.png" alt="" class="nav-bar__links">
               </a>
             </div>
           </div>
-          <div class="col-lg-7 col-md-8 pl-0 pr-0">
+          <div class="col-lg-9 col-md-10 pl-0 pr-0">
             <ul class="nav-bar__menu">
-              <li class="nav-bar__menu_item"><a href="index.html" class="nav-bar__menu_item__link">Giới thiệu</a></li>
-              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Tính năng</a></li>
+              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Giới thiệu</a></li>
+              <li class="nav-bar__menu_item"><a href="tinh-nang.html" class="nav-bar__menu_item__link">Tính năng</a></li>
               <li class="nav-bar__menu_item"><a href="app-order.html" class="nav-bar__menu_item__link">Kênh Order</a></li>
               <li class="nav-bar__menu_item"><a href="bang-gia.html" class="nav-bar__menu_item__link">Bảng giá</a></li>
               <li class="nav-bar__menu_item"><a href="customer.html" class="nav-bar__menu_item__link">Khách hàng</a></li>
               <li class="nav-bar__menu_item"><a href="update-feature.html" class="nav-bar__menu_item__link">Thông tin</a></li>
             </ul>
-          </div>
-          <div class="col-lg-2 col-md-2 pl-0">
-            <a href="#" class="nav-bar__btn btn btn-danger">Đăng kí</a>
+            <a href="#" class="nav-bar__btn btn btn-danger">Đăng ký</a>
           </div>
         </div>
       </div>
     </div>
   </header>
   <main>
-    <section id="section1">
-      <div class="container-fluid banner pl-0 pr-0">
-        <img src="images/tinh-nang/banner_tinhnang.jpg" alt="" class="banner__thumnail">
+    <section class="section1">
+      <div class="container-fluid pl-0 pr-0">
+        <img src="./images/tinh-nang/banner_tinhnang.jpg" class="img_dektop d-none d-md-block" alt="banner">
+        <img src="./images/tinh-nang/bg.jpg" class="img_mobile d-none d-sm-block d-md-none" alt="banner">
       </div>
     </section>
     <section id="section2">
       <div class="container pl-0 pr-0">
         <h1 class="overview__title">Mô hình vận hành</h1>
-        <img src="images/tinh-nang/banner_gioithieu.jpg" alt="" class="img-fluid">
+        <img src="images/tinh-nang/banner_gioithieu.jpg" alt="" class="img-fluid img_dektop d-none d-md-block">
+        <img src="images/tinh-nang/02_2.png" alt="" class="img-fluid img_mobile d-none d-sm-block d-md-none">
         <hr class="overview__separetor">
       </div>
     </section>
     <section id="section3">
-      <h1 class="detail__title">Bán hàng thông minh hơn và</h1>
-      <h1 class="detail__title">tăng trưởng doanh thu với nhiều kênh bán hàng</h1>
       <div class="container detail__container">
         <div class="row detail">
-          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-4">
+          <div class="col-lg-10 offset-md-1">
+            <h1 class="detail__title d-none d-md-block">Bán hàng thông minh hơn và </br> tăng trưởng doanh thu với nhiều kênh bán hàng</h1>
+            <h1 class="detail__title d-none d-sm-block d-md-none">Bán hàng thông minh hơn và tăng trưởng doanh thu với nhiều kênh bán hàng</h1>
+          </div>
+          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-4 order-md-1 order-sm-2 nbg">
             <div class="detail_sub mt-4">
               <h2 class="detail__sub_title especially">POS</h2>
               <h2 class="detail__sub_title">Order</h2>
@@ -135,7 +139,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-0">
+          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-0 order-md-2 order-sm-1">
             <img src="images/tinh-nang/img1.jpg" alt="" class="detail__image1">
           </div>
         </div>
@@ -143,7 +147,7 @@
           <div class="col-lg-6 col-md-6 col-12 pr-0 pl-0">
             <img src="images/tinh-nang/img2.jpg" alt="" class="detail__image1">
           </div>
-          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-5">
+          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-5 bg">
             <div class="detail_sub mt-4">
               <h2 class="detail__sub_title especially">QR</h2>
               <h2 class="detail__sub_title">Order</h2>
@@ -176,7 +180,7 @@
           </div>
         </div>
         <div class="row detail">
-          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-4">
+          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-4 order-md-1 order-sm-2 nbg">
             <div class="detail_sub mt-4">
               <h2 class="detail__sub_title especially">Website</h2>
               <h2 class="detail__sub_title">Online</h2>
@@ -198,7 +202,7 @@
               </div>
               <div class="detail__content_item">
                 <img src="images/tinh-nang/tick.png" alt="" class="detail__content__small">
-                <h6 class="detail__content__small description">Đồng bộ đơn hàng realtime về Fos và admin</h6>
+                <h6 class="detail__content__small description">Đồng bộ đơn hàng realtime về Pos và admin</h6>
               </div>
             </div>
             <div class="detail__info">
@@ -207,7 +211,7 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-0">
+          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-0 order-md-2 order-sm-1">
             <img src="images/tinh-nang/img3.jpg" alt="" class="detail__image1">
           </div>
         </div>
@@ -215,7 +219,7 @@
           <div class="col-lg-6 col-md-6 col-12 pr-0 pl-0">
             <img src="images/tinh-nang/img4.jpg" alt="" class="detail__image1">
           </div>
-          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-5">
+          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-5 bg">
             <div class="detail_sub mt-4">
               <h2 class="detail__sub_title especially">Ứng dụng</h2>
               <h2 class="detail__sub_title">di động</h2>
@@ -248,7 +252,7 @@
           </div>
         </div>
         <div class="row detail">
-          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-4">
+          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-4 order-md-1 order-sm-2 nbg">
             <div class="detail_sub mt-4">
               <h2 class="detail__sub_title especially">Kiosk</h2>
               <h2 class="detail__sub_title">Order</h2>
@@ -279,74 +283,129 @@
               </a>
             </div>
           </div>
-          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-0">
-            <img src="images/tinh-nang/img3.jpg" alt="" class="detail__image1">
+          <div class="col-lg-6 col-md-6 col-12 pr-0 pl-0 order-md-2 order-sm-1">
+            <img src="images/tinh-nang/img5.jpg" alt="" class="detail__image1">
           </div>
         </div>
       </div>
     </section>
     <section id="section4">
       <div class="container-fluid pr-0 pl-0 info">
-        <h1 class="info__title">Trợ thủ đắc lực cho nhà quản lí chuyên nghiệp</h1>
+        <h1 class="info__title">Trợ thủ đắc lực cho nhà quản lý chuyên nghiệp</h1>
         <div class="container info__container">
           <div class="row info__row">
             <div class="col-lg-6 col-md-6 col-12">
-              <img src="images/tinh-nang/banner4.png" alt="" class="info__banner img-fluid">
+              <img src="images/tinh-nang/bn4.png" alt="" class="info__banner img-fluid">
             </div>
             <div class="col-lg-6 col-md-6 col-12">
               <ul class="infor_menu">
-                <li class="infor_menu_li" id="infor_menu_li">
-                  <a class="infor_menu__link collapsed" data-toggle="collapse" data-target="#demo">Quản lí nguyên vật liệu, sản phẩm</a>
+                <li class="infor_menu_li" id="infor_menu_li" data-toggle="collapse" data-target="#qlvl">
+                  <a class="infor_menu__link collapsed">Quản lý nguyên vật liệu, sản phẩm</a>
                   <i class="icon fas fa-chevron-down float-right"></i>
-                  <div id="demo" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                  <div id="qlvl" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
                     <div class="card-body text-white">
-                      Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                      Quản lý số lượng sản phẩm, hình ảnh, danh mục sản phẩm, giá vốn, công thức chế biến.
                     </div>
                   </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí nhân viên</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qlnv">
+                  <a href="#" class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý nhân viên</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qlnv" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Quản lý nhân viên theo ca, theo chi nhánh. Phân quyền chặt chẽ trên phần mềm hạn chế rủi ro thất thoát ở nhân viên.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí kho, cảnh báo tồn kho</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qltk">
+                  <a href="" class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý kho, cảnh báo tồn kho</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qltk" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Quản lý nhập, xuất, tồn kho NVL, sản phẩm.  Cảnh báo NVL tồn kho khi dưới mức cho phép.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí bàn, khu vực</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qlkv">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý bàn, khu vực</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qlkv" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Quản lý khu vực phục vụ, tình trạng bàn trống.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí thực đơn</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qltd">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý thực đơn</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qltd" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Quản lý danh sách món được bán tại kênh offline/ online, topping đi kèm. Hiển thị giá chiết khấu cho từng đối tác vận chuyển.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí khách hàng, điểm thành viên</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qlkh">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý khách hàng, điểm thành viên</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qlkh" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Quản lý thông tin Khách hàng, lịch sử mua hàng. Dễ dàng xây dựng các chương trình thành viên thân thiết.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí chương trình Khuyến mãi</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qlkm">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý chương trình Khuyến mãi</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qlkm" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Cho phép thiết lập đa dạng các loại CTKM:  giảm giá theo %/ giá trị/ tặng kèm. Tạo mã khuyến mãi, phát hành voucher. Tùy chỉnh linh hoạt cho chuỗi cửa hàng/ kênh bán hàng online.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí bảng giá vận chuyển</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qlvc">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý bảng giá vận chuyển</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qlvc" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Thiết lập bảng giá vận chuyển theo từng khi vực và cho từng chi nhánh.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí đơn hàng đa kênh</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qldk">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý đơn hàng đa kênh</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qldk" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Đồng bộ toàn bộ đơn hàng từ tất cả các kênh. Kiểm soát quy trình xử lý và tình trạng đơn hàng.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Quản lí nhà cung cấp</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#qlncc">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Quản lý nhà cung cấp</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="qlncc" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Theo dõi nhập kho từ nhà cung cấp. Quản lý công nợ , lịch sử mua hàng, lịch sử thanh toán.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li">
-                  <a href="" class="infor_menu__link">Báo cáo trực quan, chính xác</a>
+                <li class="infor_menu_li" data-toggle="collapse" data-target="#bctq">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Báo cáo trực quan, chính xác</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="bctq" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      Bộ báo cáo chuyên sâu, trực quan, chính xác. Cung cấp đầy đủ thông tin hữu ích nhất hỗ trợ nhà quản lý đưa ra quyết định.
+                    </div>
+                  </div>
                 </li>
-                <li class="infor_menu_li infor_menu_end">
-                  <a href="" class="infor_menu__link">Ứng dụng báo cáo dành cho nhà quản lí</a>
+                <li class="infor_menu_li infor_menu_end" data-toggle="collapse" data-target="#udbc">
+                  <a class="infor_menu__link collapsed" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Ứng dụng báo cáo dành cho nhà quản lí</a>
                   <i class="fas fa-chevron-down float-right"></i>
+                  <div id="udbc" class="collapse" aria-labelledby="headingThree" data-parent="#infor_menu_li">
+                    <div class="card-body text-white">
+                      App báo cáo riêng cho phép nhà quản lý nắm bắt mọi thông tin về cửa hàng theo thời gian thưc.
+                    </div>
+                  </div>
                 </li>
               </ul>
             </div>
@@ -361,10 +420,10 @@
           <div class="form__title w-100 text-center mb-5">
             <h2>Giải pháp toàn diện cho doanh nghiệp F&B phát triển kinh doanh</h2>
           </div>
-          <div class="col-md-6">
-            <img src="images/tinh-nang/form.png" alt="Image form" class="img-fluid">
+          <div class="col-md-6 bg-form order-md-1 order-sm-2">
+            <img src="./images/gioi-thieu/form.png" alt="Image form" class="img-fluid">
           </div>
-          <div class="col-md-6">
+          <div class="col-md-6 order-md-2 order-sm-1">
             <div class="form__box">
               <div class="form__box__title mb-2">
                 <h2 class="form__box__title_item item-req">yêu cầu </h2>
@@ -405,43 +464,50 @@
   <footer>
     <div class="container">
       <div class="row footer__above mb-5">
-        <div class="col-md-3">
+        <div class="col-md-3 col-sm-8">
           <img src="./images/logo/logo_polaris2.png" alt="Logo footer" class="mb-3 img-fluid">
           <div class="footer__above_description">
             <p>Tại <b>Polaris</b>, chúng tôi luôn phấn đấu để dẫn đầu về đổi mới và ssáng tạo. Ứng dụng trí tuệ nhân tạo, kiểm định chất lượng nghiêm ngặt vào quy trình sản xuất sản phẩm luôn là tiêu chí hàng đầu.</p>
           </div>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-4">
           <div class="footer__title">về polaris</div>
           <ul>
-            <li><a href="#">Giới thiệu</a></li>
-            <li><a href="#">Văn hóa doanh nghiệp</a></li>
-            <li><a href="#">Nền tảng công nghệ</a></li>
-            <li><a href="#">Hoạt động cộng đồng</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Giới thiệu</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Văn hóa doanh nghiệp</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Nền tảng công nghệ</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Hoạt động cộng đồng</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 col-sm-8 pr-0 service">
           <div class="footer__title">dịch vụ</div>
           <ul>
-            <li><a href="#">Nền tảng số</a></li>
-            <li><a href="#">Dịch vụ</a></li>
-            <li><a href="#">Tuyển dụng</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Nền tảng số</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Dịch vụ</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Tuyển dụng</a></li>
           </ul>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-3 col-sm-4 pr-0 about_us">
           <div class="footer__title">thông tin chung</div>
           <ul>
-            <li><a href="#">Chính sách bảo mật</a></li>
-            <li><a href="#">Điều khoản sử dụng</a></li>
-            <li><a href="#">Chính sách đổi trả và hoàn tiền</a></li>
-            <li><a href="#">Phương thức thanh toán</a></li>
-            <li><a href="#">Chính sách giao hàng</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Chính sách bảo mật</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Điều khoản sử dụng</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Chính sách đổi trả và hoàn tiền</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Phương thức thanh toán</a></li>
+            <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Chính sách giao hàng</a></li>
             </ul>
         </div>
         <div class="col-md-3">
           <div class="footer__title">kết nối với chúng tôi</div>
-          <img src="images/logo/social-icon.png" alt="icon" class="mb-3 img-fluid">
-          <img src="images/logo/bo-cong-thuong.png" alt="" class="mb-3">
+          <div class="social-links">
+              <a href="#" class="footer__icon_lzd"><img src="./images/logo/lazada.png" alt="" class="icon-lzd w-100"></a>
+              <a href="#" class="footer__icon_tiki"><img src="./images/logo/tiki.png" alt="" class="icon-tiki w-100"></a>
+              <a href="#" class="footer__icon_sp"><img src="./images/logo/sh.png" alt="" class="icon-shoppe w-100"></a>
+              <a href="#" class="footer__icon_fb"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="footer__icon_yb"><img src="./images/logo/yb.png" alt="" class="icon-youtube w-100"></a>
+
+          </div>
+          <img src="./images/bo-cong-thuong.png" alt="" class="mb-3 img-cong-thuong">
           <div class="input-group footer__email_box">
             <input type="text" class="form-control" placeholder="Email nhận bản tin ..." aria-describedby="basic-addon2">
             <div class="input-group-append">
@@ -452,30 +518,39 @@
       </div>
       <div class="row footer__below">
         <div class="col-md-3">
-          <div class="mb-3"><b>CÔng ty TNHH Thương mại và dịch vụ Polaris Việt Nam</b></div>
+          <div class="mb-3"><h6 class="name_company">Công ty TNHH Thương mại và Dịch vụ Polaris Việt Nam</h6></div>
           <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 028 6261 3377 - 1800 1084 - Fax: 028 6261 3377</p>
           <p><i class="fas fa-bookmark mr-2"></i><b>Giấp phép kinh doanh số:</b> 0312974840, đăng kí lần đầu ngày 16 tháng 10</p>
           <p><i class="fas fa-map-marker-alt mr-2"></i><b>Nơi cấp:</b> Sở kế hoạch và đầu tư thành phố Hồ Chí Minh</p>
         </div>
         <div class="col-md-3">
-          <div class="mb-4">Trụ sở: <b>HỒ CHÍ MINH</b></div>
+          <div class="mb-4">
+            <div class="text"><h6>Trụ sở: </h6></div>
+            <div class="location"><h6>&nbsp;HỒ CHÍ MINH</h6></div>
+          </div>
           <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> Tầng 12A - Tòa nhà Pico Plaza, 20 Cộng Hòa, Phường 12, Quận Tân Bình. TP Hồ Chí Minh</p>
           <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 028 6261 3377</p>
         </div>
         <div class="col-md-3">
-          <div class="mb-4">Văn phòng: <b>HÀ NỘI</b></div>
+          <div class="mb-4">
+            <div class="text"><h6>Văn phòng: </h6></div>
+            <div class="location"><h6>&nbsp;HÀ NỘI</h6></div>
+          </div>
           <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> NO4X, ngõ 6 Trần Quốc Hoàn, Dịch Vọng Hậu, Cầu Giấy, Hà Nội</p>
           <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 024 3210 9066</p>
         </div>
         <div class="col-md-3">
-          <div class="mb-4">Văn phòng: <b>ĐÀ NẴNG</b></div>
+          <div class="mb-4">
+            <div class="text"><h6>Văn phòng: </h6></div>
+            <div class="location"><h6>&nbsp;ĐÀ NẴNG</h6></div>
+          </div>
           <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> 119 Xuân Thủy, Phường Khuê Trung, Quận Cẩm Lệ, Đà Nẵng</p>
           <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 0914 536 446</p>
         </div>
       </div>
     </div>
     <div class="footer__bottom text-center">
-      <div class="footer__bottom_content">© 2020 Copyright by www.polarisvietnam.com</div>
+      <div class="footer__bottom_content">© 2020 Copyright by <b>www.polarisvietnam.com</b></div>
     </div>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
