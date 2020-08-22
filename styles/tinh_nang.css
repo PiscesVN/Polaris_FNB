@@ -333,4 +333,13 @@ footer .footer__bottom .footer__bottom_content{
     top: 50%;
     transform: translateY(-50%);
   }
+  .col-md-2.col-sm-8.service {
+    max-width: 66.67%;
+  }
+  .col-md-3.col-sm-4.about_us {
+    max-width: 33.33%;
+  }
+  .footer__above_description {
+    padding-right: 9rem;
+}
 }
