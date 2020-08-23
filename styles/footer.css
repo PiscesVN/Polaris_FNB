@@ -141,6 +141,21 @@ button.btn.btn-outline-secondary {
     font-size: 14px;
 }
 
+footer .footer__intro {
+    margin-left: 15px;
+    width: 25%;
+}
+
+.col-md-2.col-sm-8.service {
+    max-width: 14%;
+}
+.col-md-3.col-sm-4.about_us {
+    max-width: 19%;
+}
+footer .footer__connect {
+    width: 24%;
+}
+
 @media 	(max-width: 750px) {
 	footer .footer__above .footer__title {
     text-transform: uppercase;
@@ -153,6 +168,36 @@ button.btn.btn-outline-secondary {
     background-color: #059044;
     margin-top: 15px;
     color: white;
+	}
+	footer .footer__intro {
+	    margin-left: 15px;
+	    width: 38%;
+	}
+
+	.footer__above_description {
+    	padding-right: 9rem;
+	}
+
+	footer .footer__above .footer__above_description p {
+    	margin-top: 8px;
+	}
+	.col-md-2.col-sm-8.service {
+		max-width: 66.67%;
+	}
+	.col-md-3.col-sm-4.about_us {
+    	max-width: 33.33%;
+	}
+	footer div.container img.img-cong-thuong {
+	    position: absolute;
+	    right: 15px;
+	    top: 50%;
+	    transform: translateY(-50%);
+	}
+	footer .footer__above .input-group.footer__email_box .form-control {
+	    border-radius: 0;
+	    background-color: #f2f5fa;
+	    font-size: 15px;
+	    padding: 3%;
 	}
 }
 

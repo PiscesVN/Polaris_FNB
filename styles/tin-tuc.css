@@ -57,7 +57,11 @@ img.card-img-card {
 }
 
 .time {
-    color: #43a774;
+    color: #2a6045;
+}
+
+.time span{
+    font-size: 14px;
 }
 
 @media (max-width: 767px) {
@@ -143,19 +147,55 @@ b.text-gray {
     background-color: #F2F5FA;
 }
 
+.card-body-detail span{
+    color: #2a6045;
+}
+.card-body-detail .time-detail{
+    display: flow-root;
+}
+
+.card-body-detail .time-detail .right .seen{
+    margin-right: 10px;
+}
+.card-body-detail .time-detail .right .like,
+.card-body-detail .time-detail .right .share{
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 5px;
+    background: #4965b5;
+    color: white;
+    border-radius: 3px;    
+}
+
+.card-body-detail .time-detail .right .share{
+    background: #fe6d4c;
+}
+
+.card-body-detail .time-detail .right{
+    display: flex;
+}
+
+.card-body-detail hr{
+    border-bottom: 1px solid #0000001f;
+    margin-bottom: 20px;
+}
+.card-body-detail .card-text strong{
+    font-style: italic;
+}
+
 .card-detail {
     border: 0;
 }
 
 .group-btn {
-    margin: 2%;
-    display: inline;
+    display: flow-root;
 }
 
 button.btn.btn-secondary.color {
     background-color: #F2F5FA;
     color: black;
     border: 0;
+    margin: 7px;
 }
 
 .container.detail-info {

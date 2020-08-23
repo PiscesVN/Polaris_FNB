@@ -31,3 +31,19 @@ section.page-contents nav{
 section.page-contents nav a{
 	color: black;
 }
+
+.pagination .page-item{
+	margin: 5px;
+}
+.pagination .page-item img{
+	width: 7px;
+}
+@media (max-width: 750px) {
+	.page-title p{
+		display: none;
+	}
+	.page-contents h2{
+		font-weight: normal;
+	    font-size: 27px;
+	}
+}
