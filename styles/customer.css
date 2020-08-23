@@ -46,4 +46,7 @@ section.page-contents nav a{
 		font-weight: normal;
 	    font-size: 27px;
 	}
+	.container, .container-sm {
+	    max-width: 670px;
+	}
 }
