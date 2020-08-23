@@ -155,3 +155,9 @@ button.btn.btn-outline-secondary {
     color: white;
 	}
 }
+
+@media (max-width: 575px){
+	.col-md-2.col-sm-8.service{
+		max-width: 100% !important;
+	}
+}

@@ -252,11 +252,47 @@ p.detail-link {
     div.frame {
         margin-top: 40px;
     }
+    nav[aria-label="Page navigation example"] ul.pagination li.page-item{
+      width: 60px;
+      text-align: center;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
     nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link,
     nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span {
-        font-size: 2rem;
-        font-weight: lighter;
+        font-size: 25px;
+        font-weight: normal;
+        padding-top: 9px;
+        padding-bottom: 14px;
     }
+    
+    section#section1 .banner-news-title{
+      text-align: center;
+    }
+
+    section#section1 .banner-news {
+      height: 250px;
+      background-size: unset;
+    }
+
+    section#section1 .banner-news .banner-news-title__titile-banner{
+      padding-top: 12%;
+      font-size: 34px;
+    }
+    
+    section#section1 .banner-news .banner-news-title__sub-title{
+      line-height: 54px;
+      font-weight: normal;
+    }    
+      
+    section#section2 ul.nav_bar_news__list{
+      text-align: center;
+    }
+
+    section#section2 .card-title{
+      line-height: 35px;
+    }
+
     section#section2 div.container div.row div.hot-new_desktop {
         display: none;
     }
@@ -290,6 +326,9 @@ p.detail-link {
     }
     footer div.container img {
         margin-bottom: 30px;
+    }
+    section.form .card-body .card-title{
+      line-height: 35px;
     }
 }
 
