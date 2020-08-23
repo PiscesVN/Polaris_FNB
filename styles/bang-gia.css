@@ -3,10 +3,11 @@
   background-size: 100%;
   background-repeat: no-repeat;
 }
-/*.titile-banner {
-  margin-bottom: 10rem;
-  margin-top: 10rem;
-}*/
+@media (max-width: 750px){
+  div.top-bar {
+      display: block;
+  }
+}
 .title-table {
   margin-top: 5rem;
   text-align: center;
@@ -72,6 +73,9 @@ th.block-prices {
 .table tbody td {
   text-align: center;
 }
+.table tbody span{
+  font-weight: normal;
+}
 
 .table tbody th.start-row {
   padding-left: 2.5rem;
@@ -119,6 +123,68 @@ tbody tr td:nth-child(4) {
   }
 }
 
+@media (max-width: 750px) {
+  .banner-prices{
+    height: 250px;
+    background-size: unset;
+    text-align: center;
+    object-position: center;
+    display: flex;
+    align-items: center;
+  }
+  .box {
+    position: relative;
+  }
+  .ribbon {
+    position: absolute;
+    right: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+  }
+  .ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #ea2424;
+    background: linear-gradient(#ef3131 0%, #d83c39 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px;
+    right: -21px;
+  }
+  .ribbon span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #e61515;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #d63939;
+  }
+.ribbon span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #e6302f;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #dc3d3d;
+  }
+}
+
 @media (max-width: 425px) {
   th.block-prices {
     border-left: 1px solid #fff;
@@ -132,3 +198,56 @@ tbody tr td:nth-child(4) {
   }
 
 }
+
+
+.box {
+    position: relative;
+  }
+  .ribbon {
+    position: absolute;
+    right: -5px; top: -5px;
+    z-index: 1;
+    overflow: hidden;
+    width: 75px; height: 75px;
+    text-align: right;
+  }
+  .ribbon span {
+    font-size: 10px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 20px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    width: 100px;
+    display: block;
+    background: #ea2424;
+    background: linear-gradient(#ef3131 0%, #d83c39 100%);
+    box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+    position: absolute;
+    top: 19px;
+    right: -21px;
+  }
+  .ribbon span::before {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid #e61515;
+    border-right: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #d63939;
+  }
+.ribbon span::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    z-index: -1;
+    border-left: 3px solid transparent;
+    border-right: 3px solid #e6302f;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid #dc3d3d;
+  }

@@ -57,7 +57,11 @@ img.card-img-card {
 }
 
 .time {
-    color: #43a774;
+    color: #2a6045;
+}
+
+.time span{
+    font-size: 14px;
 }
 
 @media (max-width: 767px) {
@@ -143,19 +147,55 @@ b.text-gray {
     background-color: #F2F5FA;
 }
 
+.card-body-detail span{
+    color: #2a6045;
+}
+.card-body-detail .time-detail{
+    display: flow-root;
+}
+
+.card-body-detail .time-detail .right .seen{
+    margin-right: 10px;
+}
+.card-body-detail .time-detail .right .like,
+.card-body-detail .time-detail .right .share{
+    padding-left: 7px;
+    padding-right: 7px;
+    margin-right: 5px;
+    background: #4965b5;
+    color: white;
+    border-radius: 3px;    
+}
+
+.card-body-detail .time-detail .right .share{
+    background: #fe6d4c;
+}
+
+.card-body-detail .time-detail .right{
+    display: flex;
+}
+
+.card-body-detail hr{
+    border-bottom: 1px solid #0000001f;
+    margin-bottom: 20px;
+}
+.card-body-detail .card-text strong{
+    font-style: italic;
+}
+
 .card-detail {
     border: 0;
 }
 
 .group-btn {
-    margin: 2%;
-    display: inline;
+    display: flow-root;
 }
 
 button.btn.btn-secondary.color {
     background-color: #F2F5FA;
     color: black;
     border: 0;
+    margin: 7px;
 }
 
 .container.detail-info {
@@ -252,11 +292,48 @@ p.detail-link {
     div.frame {
         margin-top: 40px;
     }
+    nav[aria-label="Page navigation example"] ul.pagination li.page-item{
+      width: 60px;
+      text-align: center;
+      margin-left: 8px;
+      margin-right: 8px;
+    }
     nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link,
     nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span {
-        font-size: 2rem;
-        font-weight: lighter;
+        font-size: 25px;
+        font-weight: normal;
+        padding-top: 9px;
+        padding-bottom: 14px;
+        color: black;
     }
+    
+    section#section1 .banner-news-title{
+      text-align: center;
+    }
+
+    section#section1 .banner-news {
+      height: 250px;
+      background-size: unset;
+    }
+
+    section#section1 .banner-news .banner-news-title__titile-banner{
+      padding-top: 12%;
+      font-size: 34px;
+    }
+    
+    section#section1 .banner-news .banner-news-title__sub-title{
+      line-height: 54px;
+      font-weight: normal;
+    }    
+      
+    section#section2 ul.nav_bar_news__list{
+      text-align: center;
+    }
+
+    section#section2 .card-title{
+      line-height: 35px;
+    }
+
     section#section2 div.container div.row div.hot-new_desktop {
         display: none;
     }
@@ -290,6 +367,9 @@ p.detail-link {
     }
     footer div.container img {
         margin-bottom: 30px;
+    }
+    section.form .card-body .card-title{
+      line-height: 35px;
     }
 }
 
