@@ -341,5 +341,8 @@ footer .footer__bottom .footer__bottom_content{
   }
   .footer__above_description {
     padding-right: 9rem;
-}
+  }
+  section.form img.img-fluid {
+    margin-top: 9%;
+  }
 }
