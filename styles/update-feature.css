@@ -66,6 +66,18 @@ section.banner-img .text-info p {
 /* Responsive 750px (Iphone 6) */
 
 @media (max-width: 750px) {
+    .page-title .group-title{
+        text-align: center;
+    }
+    .page-title .group-title h1{
+        font-size: 39px;
+        line-height: 54px;
+    }
+    .page-title .group-title p{
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 35px;
+    }
     div.top-bar {
         display: block;
     }
@@ -85,7 +97,7 @@ section.banner-img .text-info p {
     }
     nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link,
     nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span {
-        font-size: 2rem;
+        font-size: 1.25rem;
         font-weight: lighter;
     }
     section.banner-img div.container {

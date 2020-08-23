@@ -22,10 +22,11 @@
           <h6 class="top-bar__info">&nbsp;&nbsp;Hotline: 18001084</h6>
         </div>
         <div class="col-lg-4 col-md-1 d-none d-md-block"></div>
-        <div class="col-lg-2 col-md-3 d-none d-md-block pl-4 pr-0">
-          <img src="images/tinh-nang/vietnam.png" alt="" class="top-bar__thumnail">
+        <div class="d-none d-sm-block d-md-none col-9"></div>
+        <div class="col-lg-2 col-md-3 col-3 pr-0">
+          <img src="images/vietnam.png" alt="" class="top-bar__thumnail">
           <h6 class="top-bar__language">Tiếng Việt&nbsp;
-            <i class="fas fa-sort-down"></i>
+            <i class="fas fa-sort-down top-bar__language__icon"></i>
           </h6>
         </div>
       </div>
@@ -36,7 +37,7 @@
       <div class="row">
         <div class="col-md-9 col-sm-7 col-5">
           <a href="" class="navbar-brand mobile-logo">
-            <img src="images/logo/logo.jpg" alt="" class="nav-bar__links">
+            <img src="images/logo/logo.png" alt="" class="nav-bar__links">
           </a>
         </div>
         <div class="col-md-2 col-sm-4 col-6">
@@ -54,10 +55,10 @@
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active"><a href="index.html" class="nav-link">Giới thiệu</a></li>
         <li class="nav-item"><a href="tinh-nang.html" class="nav-link">Tính năng</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Kênh Order</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Bảng giá</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Khách hàng</a></li>
-        <li class="nav-item"><a href="#" class="nav-link">Thông tin</a></li>
+        <li class="nav-item"><a href="app-order.html" class="nav-link">Kênh Order</a></li>
+        <li class="nav-item"><a href="javascript(0)" class="nav-link">Bảng giá</a></li>
+        <li class="nav-item"><a href="customer.html" class="nav-link">Khách hàng</a></li>
+        <li class="nav-item"><a href="update-feature.html" class="nav-link">Thông tin</a></li>
       </ul>
     </div>
     <div class="nav-bar">
@@ -66,22 +67,20 @@
           <div class="col-lg-3 col-md-2">
             <div class="nav-bar__logo">
               <a href="#">
-                <img src="images/logo/logo.jpg" alt="" class="nav-bar__links">
+                <img src="images/logo/logo.png" alt="" class="nav-bar__links">
               </a>
             </div>
           </div>
-          <div class="col-lg-7 col-md-8 pl-0 pr-0">
+          <div class="col-lg-9 col-md-10 pl-0 pr-0">
             <ul class="nav-bar__menu">
-              <li class="nav-bar__menu_item"><a href="index.html" class="nav-bar__menu_item__link">Giới thiệu</a></li>
-              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Tính năng</a></li>
-              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Kênh Order</a></li>
-              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Bảng giá</a></li>
-              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Khách hàng</a></li>
-              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Thông tin</a></li>
+              <li class="nav-bar__menu_item"><a href="#" class="nav-bar__menu_item__link">Giới thiệu</a></li>
+              <li class="nav-bar__menu_item"><a href="tinh-nang.html" class="nav-bar__menu_item__link">Tính năng</a></li>
+              <li class="nav-bar__menu_item"><a href="app-order.html" class="nav-bar__menu_item__link">Kênh Order</a></li>
+              <li class="nav-bar__menu_item"><a href="javascript(0)" class="nav-bar__menu_item__link">Bảng giá</a></li>
+              <li class="nav-bar__menu_item"><a href="customer.html" class="nav-bar__menu_item__link">Khách hàng</a></li>
+              <li class="nav-bar__menu_item"><a href="update-feature.html" class="nav-bar__menu_item__link">Thông tin</a></li>
             </ul>
-          </div>
-          <div class="col-lg-2 col-md-2 pl-0">
-            <a href="#" class="nav-bar__btn btn btn-danger">Đăng kí</a>
+            <a href="#" class="nav-bar__btn btn btn-danger">Đăng ký</a>
           </div>
         </div>
       </div>
@@ -92,7 +91,9 @@
       <div class="container-fluid banner-prices">
         <div class="container">
           <div class="row">
-            <h1 class="text-white titile-banner">BẢNG GIÁ DỊCH VỤ</h1>
+            <div class="col-12">
+              <h1 class="text-white titile-banner">BẢNG GIÁ DỊCH VỤ</h1>
+            </div>
           </div>
         </div>
       </div>
@@ -109,19 +110,20 @@
                 <tr>
                   <th scope="col" class="column-first">Gói</th>
                   <th scope="col" class="block-prices block-prices-basic text-center pr-0 pl-0">
-                    <div class="small-style">Giói cơ bản</div>
+                    <div class="small-style">Gói cơ bản</div>
                     <div class="upcase-style">Basic</div>
                     <div class="prices">119,000 </div>
                     <div class="units">Vnđ/tháng</div>
                   </th>
-                  <th scope="col" class="block-prices block-prices-standard text-center pr-0 pl-0">
-                    <div class="small-style">Giói nâng cao</div>
+                  <th scope="col" class="block-prices block-prices-standard text-center pr-0 pl-0 box">
+                    <div class="ribbon"><span>Phổ biến</span></div>
+                    <div class="small-style">Gói nâng cao</div>
                     <div class="upcase-style">Standard</div>
                     <div class="prices">399,000 </div>
                     <div class="units">Vnđ/tháng</div>
                   </th>
                   <th scope="col"  class="block-prices block-prices-pro text-center pr-0 pl-0">
-                    <div class="small-style">Giói mở rộng</div>
+                    <div class="small-style">Gói mở rộng</div>
                     <div class="upcase-style">Pro</div>
                     <div class="prices">599,000 </div>
                     <div class="units">Vnđ/tháng</div>
@@ -130,16 +132,16 @@
               </thead>
               <tbody>
                 <tr>
-                  <th scope="row" class="start-row">Cửa hàng</th>
-                  <td>1</td>
-                  <td>1</td>
-                  <td>2</td>
+                  <th scope="row" class="start-row"><span>Cửa hàng</span></th>
+                  <td><span>1</span></td>
+                  <td><span>1</span></td>
+                  <td><span>2</span></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Nhân viên</th>
-                  <td>10</td>
-                  <td>20</td>
-                  <td>50</td>
+                  <th scope="row" class="start-row"><span>Nhân viên</span></th>
+                  <td><span>10</span></td>
+                  <td><span>20</span></td>
+                  <td><span>50</span></td>
                 </tr>
                 <tr class="block-row">
                   <th scope="row" class="start-row">TÍNH NĂNG</th>
@@ -154,79 +156,79 @@
                   <td></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý bàn, khu vực</th>
+                  <th scope="row" class="start-row"><span>Quản lý bàn, khu vực</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý nhân viên</th>
+                  <th scope="row" class="start-row"><span>Quản lý nhân viên</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý thực đơn</th>
+                  <th scope="row" class="start-row"><span>Quản lý thực đơn</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý nguyên vật liệu, sản phẩm</th>
+                  <th scope="row" class="start-row"><span>Quản lý nguyên vật liệu, sản phẩm</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý kho, cảnh báo tồn kho</th>
+                  <th scope="row" class="start-row"><span>Quản lý kho, cảnh báo tồn kho</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý nhà cung cấp</th>
+                  <th scope="row" class="start-row"><span>Quản lý nhà cung cấp</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý thu chi</th>
+                  <th scope="row" class="start-row"><span>Quản lý thu chi</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý đơn hàng đa kênh</th>
+                  <th scope="row" class="start-row"><span>Quản lý đơn hàng đa kênh</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý khách hàng, thẻ thành viên</th>
+                  <th scope="row" class="start-row"><span>Quản lý khách hàng, thẻ thành viên</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Quản lý thanh toán</th>
+                  <th scope="row" class="start-row"><span>Quản lý thanh toán</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Chương trình khuyến mãi</th>
+                  <th scope="row" class="start-row"><span>Chương trình khuyến mãi</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Bảng giá vận chuyện nội bộ và đối tác</th>
+                  <th scope="row" class="start-row"><span>Bảng giá vận chuyện nội bộ và đối tác</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Hệ báo cáo thông minh</th>
+                  <th scope="row" class="start-row"><span>Hệ báo cáo thông minh</span></th>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
@@ -238,25 +240,25 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Đồng bộ dữ liệu tức thì</th>
+                  <th scope="row" class="start-row"><span>Đồng bộ dữ liệu tức thì</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Điều chỉnh thông tin hiển thị trên mã</th>
+                  <th scope="row" class="start-row"><span>Điều chỉnh thông tin hiển thị trên mã</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Số lượng mã/cửa hàng</th>
+                  <th scope="row" class="start-row"><span>Số lượng mã/cửa hàng</span></th>
                   <td></td>
                   <td>1-50</td>
                   <td>50-100</td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Thương hiệu hiển thị/<i>Copyright by Polaris Fnb</i></th>
+                  <th scope="row" class="start-row"><span>Thương hiệu hiển thị/<i>Copyright by Polaris Fnb</span></i></th>
                   <td></td>
                   <td>Hiển thị</td>
                   <td>Không hiển thị</td>
@@ -268,25 +270,25 @@
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Đồng bộ dữ liệu tức thì</th>
+                  <th scope="row" class="start-row"><span>Đồng bộ dữ liệu tức thì</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Tính năng Website cơ bản</th>
+                  <th scope="row" class="start-row"><span>Tính năng Website cơ bản</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Đặt món Online</th>
+                  <th scope="row" class="start-row"><span>Đặt món Online</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr class="block-row">
-                  <th scope="row" class="start-row">Thương hiệu hiển thị/<i>Copyright by Polaris Fnb</i></th>
+                  <th scope="row" class="start-row"><span>Thương hiệu hiển thị/<i>Copyright by Polaris Fnb</span></i></th>
                   <td></td>
                   <td>Hiển thị</td>
                   <td>Không hiển hị</td>
@@ -298,61 +300,61 @@
                   <td></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Đồng bộ dữ liệu tức thì</th>
+                  <th scope="row" class="start-row"><span>Đồng bộ dữ liệu tức thì</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Hiển thị thực đơn tùy chọn</th>
+                  <th scope="row" class="start-row"><span>Hiển thị thực đơn tùy chọn</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Đặt món online</th>
+                  <th scope="row" class="start-row"><span>Đặt món online</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Thông báo khuyến mãi</th>
+                  <th scope="row" class="start-row"><span>Thông báo khuyến mãi</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Hạng thành viên</th>
+                  <th scope="row" class="start-row"><span>Hạng thành viên</span></th>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Tích hợp SMS Branhname</th>
+                  <th scope="row" class="start-row"><span>Tích hợp SMS Branhname</span></th>
                   <td></td>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Nạp điểm thành viên</th>
+                  <th scope="row" class="start-row"><span>Nạp điểm thành viên</span></th>
                   <td></td>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Thanh toán trực tuyến</th>
+                  <th scope="row" class="start-row"><span>Thanh toán trực tuyến</span></th>
                   <td></td>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Hệ thống cửa hàng</th>
+                  <th scope="row" class="start-row"><span>Hệ thống cửa hàng</span></th>
                   <td></td>
                   <td></td>
                   <td><img src="images/bang-gia/tick.png" alt=""></td>
                 </tr>
                 <tr>
-                  <th scope="row" class="start-row">Thông tin nhà phát triển</th>
+                  <th scope="row" class="start-row"><span>Thông tin nhà phát triển</span></th>
                   <td></td>
                   <td>Hiển thị</td>
                   <td>Không hiển thị</td>
@@ -380,7 +382,7 @@
                 <b>CHI PHÍ BỔ SUNG</b>
               </div>
               <div class="card-body">
-                <p>- Phí khởi tạo App Order trên IOS / Android: <strong>9.000.000 vnđ</strong> </p>
+                <p>- Phí khởi tạo App Order trên IOS / Android: <strong>9.900.000 vnđ</strong> </p>
                 <p>- Cửa hàng bổ sung: 119.000 vnđ / cửa hàng / tháng</p>
                 <p>- Tài khoản bổ sung: 30.000 vnđ / tài khoảng / tháng</p>
               </div>
@@ -392,81 +394,97 @@
 
   </main>
   <footer>
-    <div class="container">
-      <div class="row footer__above mb-5">
-        <div class="col-md-3">
-          <img src="./images/logo/logo_polaris2.png" alt="Logo footer" class="mb-3 img-fluid">
-          <div class="footer__above_description">
-            <p>Tại <b>Polaris</b>, chúng tôi luôn phấn đấu để dẫn đầu về đổi mới và ssáng tạo. Ứng dụng trí tuệ nhân tạo, kiểm định chất lượng nghiêm ngặt vào quy trình sản xuất sản phẩm luôn là tiêu chí hàng đầu.</p>
+        <div class="container">
+          <div class="row footer__above mb-5">
+            <div class="col-md-3 col-sm-8">
+              <img src="./images/logo/logo_polaris2.png" alt="Logo footer" class="mb-3 img-fluid">
+              <div class="footer__above_description">
+                <p>Tại <b>Polaris</b>, chúng tôi luôn phấn đấu để dẫn đầu về đổi mới và ssáng tạo. Ứng dụng trí tuệ nhân tạo, kiểm định chất lượng nghiêm ngặt vào quy trình sản xuất sản phẩm luôn là tiêu chí hàng đầu.</p>
+              </div>
+            </div>
+            <div class="col-md-2 col-sm-4">
+              <div class="footer__title">về polaris</div>
+              <ul>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Giới thiệu</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Văn hóa doanh nghiệp</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Nền tảng công nghệ</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Hoạt động cộng đồng</a></li>
+              </ul>
+            </div>
+            <div class="col-md-2 col-sm-8 pr-0 service">
+              <div class="footer__title">dịch vụ</div>
+              <ul>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Nền tảng số</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Dịch vụ</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Tuyển dụng</a></li>
+              </ul>
+            </div>
+            <div class="col-md-3 col-sm-4 pr-0 about_us">
+              <div class="footer__title">thông tin chung</div>
+              <ul>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Chính sách bảo mật</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Điều khoản sử dụng</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Chính sách đổi trả và hoàn tiền</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Phương thức thanh toán</a></li>
+                <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Chính sách giao hàng</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+              <div class="footer__title">kết nối với chúng tôi</div>
+              <div class="social-links">
+                  <a href="#" class="footer__icon_lzd"><img src="./images/logo/lazada.png" alt="" class="icon-lzd w-100"></a>
+                  <a href="#" class="footer__icon_tiki"><img src="./images/logo/tiki.png" alt="" class="icon-tiki w-100"></a>
+                  <a href="#" class="footer__icon_sp"><img src="./images/logo/sh.png" alt="" class="icon-shoppe w-100"></a>
+                  <a href="#" class="footer__icon_fb"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#" class="footer__icon_yb"><img src="./images/logo/yb.png" alt="" class="icon-youtube w-100"></a>
+
+              </div>
+              <img src="./images/bo-cong-thuong.png" alt="" class="mb-3 img-cong-thuong">
+              <div class="input-group footer__email_box">
+                <input type="text" class="form-control" placeholder="Email nhận bản tin ..." aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary" type="button">ĐĂNG KÝ</button>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-md-2">
-          <div class="footer__title">về polaris</div>
-          <ul>
-            <li><a href="#">Giới thiệu</a></li>
-            <li><a href="#">Văn hóa doanh nghiệp</a></li>
-            <li><a href="#">Nền tảng công nghệ</a></li>
-            <li><a href="#">Hoạt động cộng đồng</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <div class="footer__title">dịch vụ</div>
-          <ul>
-            <li><a href="#">Nền tảng số</a></li>
-            <li><a href="#">Dịch vụ</a></li>
-            <li><a href="#">Tuyển dụng</a></li>
-          </ul>
-        </div>
-        <div class="col-md-2">
-          <div class="footer__title">thông tin chung</div>
-          <ul>
-            <li><a href="#">Chính sách bảo mật</a></li>
-            <li><a href="#">Điều khoản sử dụng</a></li>
-            <li><a href="#">Chính sách đổi trả và hoàn tiền</a></li>
-            <li><a href="#">Phương thức thanh toán</a></li>
-            <li><a href="#">Chính sách giao hàng</a></li>
-            </ul>
-        </div>
-        <div class="col-md-3">
-          <div class="footer__title">kết nối với chúng tôi</div>
-          <img src="images/logo/social-icon.png" alt="icon" class="mb-3 img-fluid">
-          <img src="images/logo/bo-cong-thuong.png" alt="" class="mb-3">
-          <div class="input-group footer__email_box">
-            <input type="text" class="form-control" placeholder="Email nhận bản tin ..." aria-describedby="basic-addon2">
-            <div class="input-group-append">
-              <button class="btn btn-outline-secondary" type="button">ĐĂNG KÝ</button>
+          <div class="row footer__below">
+            <div class="col-md-3">
+              <div class="mb-3"><h6 class="name_company">Công ty TNHH Thương mại và Dịch vụ Polaris Việt Nam</h6></div>
+              <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 028 6261 3377 - 1800 1084 - Fax: 028 6261 3377</p>
+              <p><i class="fas fa-bookmark mr-2"></i><b>Giấp phép kinh doanh số:</b> 0312974840, đăng kí lần đầu ngày 16 tháng 10</p>
+              <p><i class="fas fa-map-marker-alt mr-2"></i><b>Nơi cấp:</b> Sở kế hoạch và đầu tư thành phố Hồ Chí Minh</p>
+            </div>
+            <div class="col-md-3">
+              <div class="mb-4">
+                <div class="text"><h6>Trụ sở: </h6></div>
+                <div class="location"><h6>&nbsp;HỒ CHÍ MINH</h6></div>
+              </div>
+              <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> Tầng 12A - Tòa nhà Pico Plaza, 20 Cộng Hòa, Phường 12, Quận Tân Bình. TP Hồ Chí Minh</p>
+              <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 028 6261 3377</p>
+            </div>
+            <div class="col-md-3">
+              <div class="mb-4">
+                <div class="text"><h6>Văn phòng: </h6></div>
+                <div class="location"><h6>&nbsp;HÀ NỘI</h6></div>
+              </div>
+              <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> NO4X, ngõ 6 Trần Quốc Hoàn, Dịch Vọng Hậu, Cầu Giấy, Hà Nội</p>
+              <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 024 3210 9066</p>
+            </div>
+            <div class="col-md-3">
+              <div class="mb-4">
+                <div class="text"><h6>Văn phòng: </h6></div>
+                <div class="location"><h6>&nbsp;ĐÀ NẴNG</h6></div>
+              </div>
+              <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> 119 Xuân Thủy, Phường Khuê Trung, Quận Cẩm Lệ, Đà Nẵng</p>
+              <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 0914 536 446</p>
             </div>
           </div>
         </div>
-      </div>
-      <div class="row footer__below">
-        <div class="col-md-3">
-          <div class="mb-3"><b>CÔng ty TNHH Thương mại và dịch vụ Polaris Việt Nam</b></div>
-          <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 028 6261 3377 - 1800 1084 - Fax: 028 6261 3377</p>
-          <p><i class="fas fa-bookmark mr-2"></i><b>Giấp phép kinh doanh số:</b> 0312974840, đăng kí lần đầu ngày 16 tháng 10</p>
-          <p><i class="fas fa-map-marker-alt mr-2"></i><b>Nơi cấp:</b> Sở kế hoạch và đầu tư thành phố Hồ Chí Minh</p>
+        <div class="footer__bottom text-center">
+          <div class="footer__bottom_content">© 2020 Copyright by <b>www.polarisvietnam.com</b></div>
         </div>
-        <div class="col-md-3">
-          <div class="mb-4">Trụ sở: <b>HỒ CHÍ MINH</b></div>
-          <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> Tầng 12A - Tòa nhà Pico Plaza, 20 Cộng Hòa, Phường 12, Quận Tân Bình. TP Hồ Chí Minh</p>
-          <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 028 6261 3377</p>
-        </div>
-        <div class="col-md-3">
-          <div class="mb-4">Văn phòng: <b>HÀ NỘI</b></div>
-          <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> NO4X, ngõ 6 Trần Quốc Hoàn, Dịch Vọng Hậu, Cầu Giấy, Hà Nội</p>
-          <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 024 3210 9066</p>
-        </div>
-        <div class="col-md-3">
-          <div class="mb-4">Văn phòng: <b>ĐÀ NẴNG</b></div>
-          <p><i class="fas fa-home mr-2"></i></i><b>Địa chỉ:</b> 119 Xuân Thủy, Phường Khuê Trung, Quận Cẩm Lệ, Đà Nẵng</p>
-          <p><i class="fas fa-phone-alt mr-2"></i><b>Điện thoại:</b> 0914 536 446</p>
-        </div>
-      </div>
-    </div>
-    <div class="footer__bottom text-center">
-      <div class="footer__bottom_content">© 2020 Copyright by www.polarisvietnam.com</div>
-    </div>
-  </footer>
+      </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
