@@ -112,19 +112,19 @@ section.banner .banner__contents .banner__group_btn button:focus{
 		margin-top: 6%;
 	}
 	section.banner .banner__contents .banner__headers h1{
-		line-height: 20px;
-		font-size: 18px;
+		/*line-height: 20px;
+		font-size: 18px;*/
 	}
 	section.banner .banner__title h1{
-		font-size: 18px;
-		line-height: 20px;
+		/*font-size: 18px;
+		line-height: 20px;*/
 	}
 	section.banner .banner__description{
 		margin-top: 5px !important;
 	}
 	section.banner .banner__description p{
-		font-size: 15px;
-		line-height: 20px;
+		/*font-size: 15px;
+		line-height: 20px;*/
 	}
 
 	section.banner .banner__contents .banner__group_btn{
