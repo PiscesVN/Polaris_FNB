@@ -62,6 +62,22 @@ section.banner-img .text-info p {
     margin: auto;
 }
 
+nav[aria-label="Page navigation example"] ul.pagination li.page-item{
+  width: 60px;
+  text-align: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link,
+nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span {
+    font-size: 25px;
+    font-weight: normal;
+    padding-top: 9px;
+    padding-bottom: 14px;
+    color: black;
+}
+    
+
 
 /* Responsive 750px (Iphone 6) */
 
