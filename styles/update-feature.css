@@ -124,6 +124,9 @@ section.banner-img .text-info p {
     footer div.container img {
         margin-bottom: 30px;
     }
+        .container, .container-sm {
+        max-width: 670px;
+    }
 }
 
 

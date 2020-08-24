@@ -222,8 +222,9 @@ section.trens .trens__contents .card .card-body{
 	padding:0;
 }
 
-.trens__title__large h1 {
+section.trens .trens__title__large h1 {
     font-size: 35px;
+    font-family: Roboto-Light;
 }
 
 section.trens .trens__contents .card .card-body a{
@@ -282,7 +283,7 @@ section.platforms .platforms__title h5{
 /*section lỉne*/
 
 section.line-dashed .line-dashed__hr{
-	border-top: 1px dashed #f0f0ef;
+	border-top: 1px dashed #7c7c7c;
 	width: 200px;
 }
 
@@ -305,7 +306,7 @@ section.customers .customers__title h5{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	font-size: 18px;
+	/*font-size: 18px;*/
 }
 
 section.customers .customers__logos .customers__box-logo{
@@ -491,7 +492,7 @@ section.page-infomations .line-solid .line-solid__hr{
 }
 
 section.page-infomations ul.nav.nav-fill {
-    padding: 0 45px;
+    /*padding: 0 45px;*/
 }
 
 @media (max-width: 767px){
@@ -614,18 +615,18 @@ footer .footer__connect {
 }
 
 @media (max-width: 750px) {
-  .title__banner {
+  /*.title__banner {
     font-family: Roboto;
     margin-top: 29rem;
-	}
-  .container.title__banner .col-sm-12 {
+	}*/
+  /*.container.title__banner .col-sm-12 {
   	padding: 6rem;
-  }
-  section.banner .banner__title h1 {
+  }*/
+  /*section.banner .banner__title h1 {
     text-align: center;
     font-weight: bold;
     font-size: 45px;
-	}
+	}*/
 
 	.banner__description.mt-4 {
     padding-left: 7%;
@@ -643,11 +644,11 @@ footer .footer__connect {
     padding: 3%;
 	}
 
-	section.banner .banner__description p {
+	/*section.banner .banner__description p {
     font-size: 19px;
     line-height: 29px;
     text-align: center;
-	}
+	}*/
 
 	section.video-info .video-info__title h1 {
     font-family: Roboto-Light;
@@ -667,11 +668,11 @@ footer .footer__connect {
     padding-right: 8%;
 	}
 
-	section.trens .trens__contents .card .card-body {
+	/*section.trens .trens__contents .card .card-body {
     padding: 0;
     text-align: center;
     margin-bottom: 5%;
-	}
+	}*/
 
 	section.trens .trens__contents p.card-text.block-ellipsis {
     display: block;
@@ -714,10 +715,10 @@ footer .footer__connect {
     margin-top: 15px;
     color: white;
 	}
-	.row.customers__logos {
+	/*.row.customers__logos {
     padding-left: 5%;
     padding-right: 5%;
-	}
+	}*/
 	section.page-infomations ul.nav.nav-fill {
     padding: 0px 90px;
 	}
@@ -733,12 +734,12 @@ footer .footer__connect {
     margin-right: 2%;
 	}
 
-	section.message-customer .message-customer__message, section.message-customer .message-customer__position p {
+	/*section.message-customer .message-customer__message, section.message-customer .message-customer__position p {
     font-family: Roboto;
     padding-left: 14%;
     padding-right: 14%;
 	}
-
+*/
 	section.message-customer .message-customer__info .message-customer__position p {
     font-style: italic;
     color: #bbbdc0;
@@ -784,4 +785,406 @@ footer .footer__connect {
 	    padding: 3%;
 	}
 }
+
+
+
+
+
+
+
+@media (max-width: 1199px) {
+	section.banner .banner__contents {
+    position: absolute;
+    top: 17%;
+    width: 100%;
+	}
+	section.banner .banner__title h1 {
+    font-size: 40px;
+    line-height: 52px;
+	}
+	section.video-info .video-info__title h1 {
+    font-size: 33px;
+	}
+	section.video-info {
+    margin-top: 75px;
+	}
+	section.trens {
+    margin-top: 75px;
+	}
+	section.platforms {
+    margin-top: 75px;
+    margin-bottom: 75px;
+	}
+	section.message-customer {
+    margin-top: 75px;
+    margin-bottom: 75px;
+	}
+	section.customers {
+    margin-top: 75px;
+    margin-bottom: 75px;
+	}
+	section.form {
+    margin-top: 75px;
+    margin-bottom: 75px;
+	}
+	section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
+    -webkit-line-clamp: 2;
+	}
+	section.page-infomations .tab-content .card .card-body .card-text.calendar {
+    margin-bottom: 0px;
+	}
+}
+
+@media (max-width: 991px) {
+	section.banner .banner__title h1 {
+    font-size: 30px;
+    line-height: 44px;
+	}
+	section.banner .banner__description p {
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 28px;
+	}
+	section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    width: 46%;
+    padding-left: 13px;
+    padding-right: 13px;
+	}
+	section.banner .banner__contents .banner__group_btn button {
+    width: 47%;
+	}
+	section.video-info .offset-md-1, section.trens .offset-md-1 {
+    margin-left: 0.333333%;
+	}
+	section.video-info .col-md-10, section.trens .col-md-10  {
+    -ms-flex: 0 0 99.333333%;
+    flex: 0 0 99.333333%;
+    max-width: 99.333333%;
+	}
+	section.trens .trens__contents .card .card-body .card-title {
+        font-size: 14px;
+	}
+	section.page-infomations .tab-content .card .card-body .card-title {
+    font-size: 15px;
+    margin-bottom: .5rem;
+	}
+	section.page-infomations .tab-content .card .card-body {
+    padding: 0.75rem 0.75rem 0rem 0.75rem;
+	}
+	section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
+    -webkit-line-clamp: 2;
+    font-size: 13px;
+	}
+	section.message-customer .message-customer__message.offset-md-2 {
+    margin-left: 14.666667%;
+	}
+	section.message-customer .message-customer__message.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 76.666667%;
+    max-width: 76.666667%;
+	}
+	section.customers .customers__logos .col-md-1.col-sm-2.col-4 {
+    margin-left: 4%;
+    margin-right: 5%;
+	}
+	section.customers .row.customers__logos {
+    padding: 0 5%;
+	}
+}
+
+@media (max-width: 767px) {
+	.container, .container-md, .container-sm {
+    max-width: 670px;
+	}
+	section.message-customer .message-customer__message, section.message-customer .message-customer__position p {
+    font-family: Roboto;
+    padding-left: 14%;
+    padding-right: 14%;
+	}
+	section.banner .banner__title h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 70px;
+    font-family: Roboto-Bold;
+	}
+	section.banner .banner__contents {
+    top: 66%;
+	}
+	section.banner .banner__description p {
+    font-family: Roboto;
+    padding: 0% 8%;
+    font-size: 24px;
+    line-height: 40px;
+    text-align: center;
+	}
+	section.banner .banner__description a {
+    font-size: 23px;
+	}
+	section.banner .banner__contents .banner__group_btn button {
+    width: 42%;
+	}
+	section.banner .banner__contents .banner__group_btn {
+    text-align: center;
+	}
+	section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
+    padding-top: 3%;
+    padding-bottom: 3%;
+	}
+	section.trens .trens__title__large h1 {
+    font-size: 39px;
+	}
+	section.banner .banner__contents .banner__group_btn button {
+    font-size: 21px;
+  }
+  section.trens .trens__title small {
+    font-size: 21px;
+	}
+	section.trens .trens__contents .card {
+    align-items: center;
+    margin-bottom: 9%;
+    text-align: center;
+	}
+	section.trens img.card-img-top.img-fluid {
+    border-radius: 0;
+    width: 80%;
+	}
+	section.trens .trens__contents .card .card-body .card-title {
+    font-size: 28px;
+    font-family: Roboto-Bold;
+    margin-bottom: 5px;
+	}
+	section.trens .trens__contents .card .card-body .card-text {
+    font-size: 21px;
+	}
+	section.trens .trens__contents .card .card-body a {
+    font-size: 21px;
+	}
+
+	section.trens .trens__contents .card .card-body .card-text {
+    margin-bottom: 3px;
+    padding: 0 4rem;
+	}
+	section.trens .trens__contents p.card-text.block-ellipsis {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+	}
+	section.customers .customers__logos .col-md-1.col-sm-2.col-4 {
+    margin-left: 1%;
+    margin-right: 2%;
+	}
+	section.customers .row.customers__logos {
+	    padding-left: 5%;
+	    padding-right: 5%;
+	}
+	section.message-customer .message-customer__message.col-md-8 {
+    -ms-flex: 0 0 66.666667%;
+    flex: 0 0 98.666667%;
+    max-width: 98.666667%;
+	}
+	section.message-customer .message-customer__message.offset-md-2 {
+    margin-left: 0;
+	}
+	section.message-customer .message-customer__message {
+    font-family: Roboto;
+    padding-left: 11%;
+    padding-right: 11%;
+	}
+	section.page-infomations .nav a.nav-link {
+    font-size: 16px;
+  }
+  section.page-infomations ul.nav.nav-fill {
+    padding: 0 85px;
+	}
+	section.page-infomations .container .row .offset-2 {
+    margin-left: 0;
+	}
+	section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
+     -webkit-line-clamp: 3;
+     font-size: 16px;
+	}
+	section.page-infomations .tab-content .card .card-body .card-text.calendar {
+    margin-bottom: 4px;
+	}
+	section.page-infomations .tab-content .card .card-body .card-title {
+   	font-size: 21px;
+   	margin-bottom: .5rem;
+	}
+	section.page-infomations .tab-content .card .card-body {
+    padding: 1rem;
+    padding-bottom: 0;
+	}
+}
+
+@media (max-width: 640px) {
+	.banner__title {
+    padding: 0 15%;
+	}
+	section.banner .banner__title h1 {
+	    text-align: center;
+	    font-weight: bold;
+	    font-size: 36px;
+	    line-height: 55px;
+	    font-family: Roboto-Bold;
+	}
+	section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
+	    width: 34%;
+	        padding-top: 2%;
+	    padding-bottom: 2%;
+	}
+}
+
+@media (max-width: 575px) {
+		section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
+    width: 42%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+	}
+	section.customers .customers__logos .col-md-1.col-sm-2.col-4 {
+	    margin-left: 0%;
+	    margin-right: 0%;
+	}
+	section.customers .row.customers__logos {
+	    padding-left: 11%;
+	    padding-right: 4%;
+	}
+	section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
+	    -webkit-line-clamp: 2;
+	    font-size: 16px;
+	}
+}
+
+@media (max-width: 	500px) {
+	.banner__title {
+    padding: 0 4%;
+}
+section.trens .trens__title__large h1 ,section.video-info .video-info__title h1, section.page-infomations .page-infomations__title h1, section.form .form__title.w-100.text-center.mb-5 h2 {
+    font-size: 29px;
+}
+section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
+    width: 48%;
+    }
+  button.banner__btn_ask {
+    margin-left: -3%;
+    margin-top: 1%;
+}
+section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
+    width: 52%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+}
+@media 	(max-width: 400px) {
+	section.banner .banner__title h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 36px;
+    font-family: Roboto-Bold;
+}
+section.banner .banner__contents .banner__group_btn button {
+    font-size: 17px;
+}
+.trens__title__large h1 {
+    padding-left: 4%;
+    padding-right: 4%;
+}
+section.page-infomations .tab-content .card .card-body .card-title {
+    font-size: 17px;
+}
+section.page-infomations .tab-content .card .card-body {
+    padding: 0.5rem;
+    padding-bottom: 0;
+}
+section.page-infomations .tab-content .card .card-img {
+    height: 100%;
+}
+}
+
+@media 	(max-width: 350px) {
+	.banner__title {
+    padding: 0 0%;
+	}
+	section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
+    width: 65%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+	}
+	section.page-infomations ul.nav.nav-fill {
+    padding: 0 60px;
+	}
+	section.customers .row.customers__logos {
+    padding-left: 4%;
+    padding-right: 5%;
+}
+}
+
+
+@media 	(min-width: 350px) {
+		section.form .form__contents {
+    border-radius: 10px;
+    padding: 41px 20px 40px 20px;
+    background-color: #f2f5fa;
+    font-family: Roboto;
+}
+section.form img.img-fluid {
+    margin-top: 0%;
+    margin-bottom: 9%;
+}
+section.form .form__box {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    -webkit-box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+    -moz-box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+    box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+}
+section.form .form__box .form__box__title .form__box__title_item.item-req {
+    color: #01994e;
+    font-weight: bold;
+    font-size: 22px;
+}
+section.form .form__box .form__box__title .form__box__title_item {
+    display: inline;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+section.form .form__box .form__input .form__input__submit {
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    background-color: #d43419;
+     padding-top: 0px; 
+     padding-bottom: 0px; 
+}
+}
+
+@media 	(min-width: 400px) {
+	section.form .form__contents {
+    border-radius: 10px;
+    padding: 60px 40px;
+    background-color: #f2f5fa;
+    font-family: Roboto;
+}
+section.form .form__box {
+    padding: 50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
