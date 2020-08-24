@@ -5,15 +5,20 @@
 
 .banner-news {
     background-image: url('../images/tin-tuc/06_TinTuc1.jpg');
-    background-size: 100%;
     background-repeat: no-repeat;
+    height: 300px;
+    display: flex;
+    align-items: center;
 }
 h5.card-title {
+    font-size: 18px;
     font-weight: 600;
 }
 
 p.card-text {
     margin-top: 2%;
+    font-size: 14px;
+    line-height: 24px;
 }
 
 .card-group {
@@ -28,7 +33,7 @@ ul.nav_bar_news__list {
     display: block;
     margin: auto;
     padding: 1%;
-    background-color: #f8f8f8f8;
+    background-color: #f4f7fc;
 }
 
 li.nav_bar_news__list__item {
@@ -42,9 +47,12 @@ img.card-img-card {
 }
 
 .nav_bar_news__list__item__link {
-    color: #00000057;
+    color: #a2b6d8cc;
     font-size: 22px;
     font-weight: bold;
+}
+.nav_bar_news__list__item__link:hover{
+    text-decoration: none;
 }
 
 .time {
@@ -52,7 +60,7 @@ img.card-img-card {
 }
 
 .time span{
-    font-size: 14px;
+    font-size: 13px;
 }
 
 img.images-detail {
@@ -172,6 +180,36 @@ p.detail-link {
     margin-top: 3%;
 }
 
+#section2 .hot-new_desktop h1{
+    font-size: 18px;
+    font-weight: bold;
+}
+#section2 .hot-new_desktop .card-title{
+    font-size: 14px;
+    line-height: 21px;
+}
+
+#section2 .hot-new_desktop .time span{
+    font-size: 11px;
+}
+
+nav[aria-label="Page navigation example"] ul.pagination li.page-item{
+    width: 50px;
+    text-align: center;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link,
+nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span {
+    font-size: 19px;
+    font-weight: normal;
+    padding-top: 9px;
+    padding-bottom: 14px;
+    color: black;
+}
+nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span img{
+    width: 7px;
+}
 /*section.form .form__contents {
     border-radius: 10px;
     padding: 90px 40px 90px 40px;
@@ -307,8 +345,6 @@ section.form .form__box .form__input .form__contact_info p {
     }
 
     section#section1 .banner-news {
-        height: 300px;
-        background-size: unset;
         display: flex;
         align-items: center;
     }
