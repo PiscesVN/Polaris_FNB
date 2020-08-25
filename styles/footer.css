@@ -184,9 +184,9 @@ footer .footer__connect {
 	.col-md-2.col-sm-8.service {
 		max-width: 66.67%;
 	}
-	.col-md-3.col-sm-4.about_us {
-    	max-width: 33.33%;
-	}
+		.col-md-3.col-sm-4.about_us {
+	    	max-width: 33.33%;
+		}
 	footer div.container img.img-cong-thuong {
 	    position: absolute;
 	    right: 15px;
@@ -204,5 +204,20 @@ footer .footer__connect {
 @media (max-width: 575px){
 	.col-md-2.col-sm-8.service{
 		max-width: 100% !important;
+	}
+	.col-md-3.col-sm-4.about_us {
+    	max-width: 100%;
+	}
+	.footer__above_description,
+	footer div.container div.footer__above_description {
+		padding-right: 0;
+	}
+	.col-md-3.col-sm-4.about_us,
+	.footer__above .intro {
+		padding-left: 10%;
+	}
+	footer .footer__above img.mb-3.img-cong-thuong{
+		position: unset;
+		margin-top: 6%;
 	}
 }
