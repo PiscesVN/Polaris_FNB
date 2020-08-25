@@ -1,0 +1,268 @@
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../fonts/Roboto/Roboto-Thin.ttf);
+} 
+
+@font-face {
+  font-family: Roboto;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Light;
+  src: url(../fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+
+
+/*section form*/
+section.form{
+	margin-top: 90px;
+	margin-bottom: 90px;
+}
+
+section.form .form__contents{
+	border-radius: 10px;
+  padding: 80px 40px 50px 40px;
+  background-color: #f2f5fa;
+  font-family: Roboto;
+}
+
+section.form .form__contents .form__title h2{
+	font-weight: normal;
+}
+
+section.form .form__box{
+	background-color: white;
+    border-radius: 20px;
+    padding: 16px 50px 50px 50px;
+    box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+}
+
+section.form .form__box .form__box__title{
+	text-align: center;
+}
+
+section.form .form__box .form__box__title .form__box__title_item{
+	display: inline;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: Roboto-Light;
+}
+
+section.form .form__box {
+ 	background-color: white;
+  border-radius: 20px;
+  padding: 16px 50px 60px 50px;
+  -webkit-box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+  -moz-box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+  box-shadow: 0px 1px 12px 6px rgb(219 224 232 / 42%);
+}
+
+section.form .form__box .form__box__title .form__box__title_item.item-req{
+	color: #01994e;
+    font-family: Roboto-Bold;
+    font-size: 30px;
+}
+
+section.form .form__box .form__box__description p{
+	color: #8a8686;
+    font-size: 16px;
+    font-family: Roboto;
+}
+section.form .form__box .form__input .form__contact_info p{
+	font-size: 16px;
+  color: #d43419;
+  font-family: Roboto-Bold;
+}
+
+section.form .form__title.w-100.text-center.mb-5 h2 {
+    font-family: Roboto-Light;
+    font-size: 36px;
+}
+
+@media (max-width: 480px){
+	section.form .form__contents{
+		padding-top: 90px; 
+    padding-bottom: 90px;
+    padding: 0;
+	}
+}
+
+input.form-control::placeholder {
+    color: black;
+}
+
+select.form-control {
+    font-style: italic;
+}
+
+section.form .form__box .form__input input, section.form .form__box .form__input .input-group {
+  font-size: 14px;
+  margin-bottom: 20px;
+  font-family: Roboto;
+}
+section.form .form__box .form__input .input-group span.input-group-text {
+  font-size: 14px;
+  font-family: Roboto;
+}
+section.form .form__box .form__input .input-group select.form-control {
+  font-size: 14px;
+  font-family: Roboto;
+  color: #b5b7b9;
+}
+section.form .form__box .form__input .form__input__submit {
+  text-transform: uppercase;
+  background-color: #d43419;
+  padding-top: 10px;
+  padding-bottom: 9px;
+  font-family: Roboto-Bold;
+  font-size: 16px;
+}
+section.form .form__contents .form__box_right {
+    margin-top: 5%;
+}
+
+/*end section form*/
+
+
+@media (max-width: 1199px) {
+	section.form .form__contents {
+    border-radius: 10px;
+    padding: 60px 40px 50px 40px;
+    background-color: #f2f5fa;
+    font-family: Roboto;
+	}
+	section.form .form__contents .form__box_right {
+    margin-top: 5%;
+    padding-right: 0;
+    padding-left: 0;
+	}
+	section.form .form__box {
+	   padding: 16px 40px 40px 40px;
+	}
+	section.form .form__contents .form__box_right {
+    margin-top: 0%;
+    padding-right: 0;
+    padding-left: 0;
+	}
+	section.form .form__contents img.img-fluid {
+	  margin-top: 3%;
+	}
+}
+
+@media (max-width: 991px) {
+	section.form .form__contents {
+    border-radius: 10px;
+    padding: 75px 36px 70px 36px;
+    background-color: #f2f5fa;
+    font-family: Roboto;
+	}
+	section.form .form__box {
+		padding: 16px 40px 40px 40px;
+    margin: auto;
+    width: 90%;
+	}
+	section.form .form__box .form__box__title .form__box__title_item.item-req, 
+	section.form .form__box .form__box__title .form__box__title_item {
+    font-size: 34px;
+	}
+	section.form .form__box .form__box__description p {
+    font-size: 20px;
+	}
+	section.form .form__box .form__input input, section.form .form__box .form__input .input-group {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+	}
+	section.form .form__box .form__input .input-group span.input-group-text,
+	section.form .form__box .form__input .input-group select.form-control,
+	section.form .form__box .form__input .form__input__submit,
+	section.form .form__box .form__input .form__input__submit {
+    font-size: 20px;
+	}
+	section.form .form__contents img.img-fluid {
+    padding-top: 50px;
+    margin: auto;
+    max-width: 100%;
+    display: flex;
+	}
+}
+
+@media (max-width: 767px) {
+	section.form .container, .container-sm {
+    max-width: 665px;
+	}
+	section.form .form__title.w-100.text-center.mb-5 h2 {
+    font-family: Roboto-Light;
+    font-size: 36px;
+    line-height: 50px;
+	}
+	section.form .form__box {
+    padding: 16px 40px 40px 40px;
+    margin: auto;
+    width: 85%;
+	}
+}
+
+@media (max-width: 575px) {
+	section.form .form__title.w-100.text-center.mb-5 h2 {
+    font-family: Roboto-Light;
+    font-size: 30px;
+    line-height: 40px;
+	}
+	section.form .form__box .form__box__title .form__box__title_item.item-req, 
+	section.form .form__box .form__box__title .form__box__title_item {
+    font-size: 30px;
+	}
+	section.form .form__box .form__input input, section.form .form__box .form__input .input-group {
+    font-size: 16px;
+    margin-bottom: 20px;
+    font-family: Roboto;
+	}
+	section.form .form__box .form__input .input-group span.input-group-text, 
+	section.form .form__box .form__input .input-group select.form-control, 
+	section.form .form__box .form__input .form__input__submit, 
+	section.form .form__box .form__input .form__input__submit {
+    font-size: 16px;
+	}
+	section.form .form__box .form__input .form__contact_info p {
+    font-size: 14px;
+    color: #d43419;
+    font-family: Roboto-Bold;
+	}
+	section.form .form__box {
+    padding: 16px 40px 40px 40px;
+    margin: auto;
+    width: 90%;
+	}
+}
+
+@media (max-width: 480px) {
+	section.form .form__box {
+    padding: 16px 30px 30px 30px;
+    margin: auto;
+    width: 100%;
+	}
+}
+
+@media (max-width: 425px) {
+	section.form .form__contents {
+    border-radius: 10px;
+    padding: 75px 15px 70px 15px;
+    background-color: #f2f5fa;
+    font-family: Roboto;
+	}
+	section.form .form__box {
+	    padding: 16px 17px 22px 17px;
+	    margin: auto;
+	    width: 100%;
+	}
+	section.form .form__box .form__box__description p {
+	    font-size: 16px;
+	}
+}
