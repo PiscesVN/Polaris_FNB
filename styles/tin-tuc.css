@@ -203,8 +203,8 @@ nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link
 nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span {
     font-size: 19px;
     font-weight: normal;
-    padding-top: 9px;
-    padding-bottom: 14px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     color: black;
 }
 nav[aria-label="Page navigation example"] ul.pagination li.page-item a.page-link span img{
