@@ -9,11 +9,16 @@ section.rules {
 }
 
 section.rules .card .card-header {
+    font-size: 18px;
     text-transform: uppercase;
     font-weight: bold;
 }
 
+section.rules .card .card-body p {
+    font-size: 14px;
+}
 section.rules .card .card-body a {
+    font-size: 14px;
     text-decoration: underline;
     color: #01994e;
     font-weight: bold;
@@ -111,6 +116,31 @@ section.form .form__contents .form__right {
         padding-bottom: 90px;
         padding: 0;
     }
+    section.rules .card .card-body p,
+    section.rules .card .card-body a,
+    section.rewards .card .card-body p,
+    section.rewards .card .card-body a {
+        font-size: 11px;
+    }
+    section.rules .card .card-body p b,
+    section.rewards .card .card-body p b {
+        font-size: 12px;
+        font-weight: bold;
+    }
+    section.form .form__box .form__box__title .form__box__title_item {
+        font-size: 23px;
+    }
+    section.form .form__box .form__box__title {
+        margin-bottom: 5px !important;
+    }
+    section.form .form__box {
+        padding: 30px;
+    }
+    section.form .form__box .form__input input,
+    section.form .form__box .form__input .input-group {
+        margin-bottom: 10px;
+    }
+
 }
 
 
