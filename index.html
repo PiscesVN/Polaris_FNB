@@ -11,19 +11,20 @@
   <link rel="stylesheet" href="./styles/gioi-thieu.css">
   <link rel="stylesheet" href="./styles/footer.css">
   <link rel="stylesheet" href="./styles/header.css">
+  <link rel="stylesheet" href="./styles/section-form.css">
 </head>
 <body>
   <div class="top-bar">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-8 d-none d-md-block pl-0 pr-0">
+        <div class="col-lg-6 col-md-8 d-none d-lg-block pl-0 pr-0">
           <h6 class="top-bar__info">info@polarisvietnam.com &nbsp;&nbsp; </h6> <span> | </span>
           <h6 class="top-bar__info">&nbsp;&nbsp;028 6261 33 77&nbsp;&nbsp; </h6> <span> | </span>
           <h6 class="top-bar__info">&nbsp;&nbsp;Hotline: 18001084</h6>
         </div>
-        <div class="col-lg-4 col-md-1 d-none d-md-block"></div>
-        <div class="d-sm-block d-md-none col-8"></div>
-        <div class="col-lg-2 col-md-3 col-3 pr-0">
+        <div class="col-lg-4 col-md-1 d-none d-lg-block"></div>
+        <div class="d-md-block d-lg-none col-8 top-bar-custom-col"></div>
+        <div class="col-lg-2 col-md-3 col-3 pr-0 top-bar-custom">
           <img src="images/vietnam.png" alt="" class="top-bar__thumnail">
           <h6 class="top-bar__language">Tiếng Việt&nbsp;
             <i class="fas fa-sort-down top-bar__language__icon"></i>
@@ -35,12 +36,12 @@
   <header>
     <div class="container mobile-logo">
       <div class="row">
-        <div class="col-md-9 col-sm-7 col-5">
+        <div class="col-md-8 col-sm-7 col-5">
           <a href="" class="navbar-brand mobile-logo">
             <img src="images/logo/logo.png" alt="" class="nav-bar__links">
           </a>
         </div>
-        <div class="col-md-2 col-sm-4 col-6">
+        <div class="col-md-3 col-sm-4 col-6">
           <a href="#" class="nav-bar__btn btn btn-danger">Đăng kí</a> 
         </div>
         <div class="col-md-1 col-sm-1 col-1 pr-0">
@@ -94,7 +95,7 @@
         <div class="row banner__contents">
           <div class="container d-none d-md-block">
             <div class="row">
-              <div class="col-xl-5 col-lg-6 col-md-6 col-sm-12 col-12">
+              <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12">
                 <div class="banner__title">
                   <h1>Nền tảng số cho ngành F&B phát triển</h1>
                 </div>
@@ -498,51 +499,52 @@
       </div>
     </section>
     <section class="form">
-      <div class="container">
-        <div class="row form__contents">
-          <div class="form__title w-100 text-center mb-5">
-            <h2>Giải pháp toàn diện cho doanh nghiệp F&B phát triển kinh doanh</h2>
-          </div>
-          <div class="col-md-6 bg-form order-md-1 order-sm-2">
-            <img src="./images/gioi-thieu/form.png" alt="Image form" class="img-fluid">
-          </div>
-          <div class="col-md-6 order-md-2 order-sm-1">
-            <div class="form__box">
-              <div class="form__box__title mb-2">
-                <h2 class="form__box__title_item item-req">yêu cầu </h2>
-                <h2 class="form__box__title_item">tư vấn</h2>
-              </div>
-              <div class="form__box__description text-center mb-3">
-                <p>Trải nghiệm 14 ngày miễn phí</p>
-              </div>
-              <div class="form__input">
-                <form action="#">
-                  <input type="text" placeholder="Tên của bạn (*)" class="form-control">
-                  <input type="tel" placeholder="Điện thoại (*)" class="form-control">  
-                  <input type="email" placeholder="Email" class="form-control">
-                  <div class="input-group">
-                    <div class="input-group-prepend">
-                      <span class="input-group-text">Mô hình kinh doanh</span>
-                    </div>
-                    <select class="form-control">
-                      <option>Nhà hàng</option>
-                      <option>Khách sạn</option>
-                      <option>Home Stay</option>
-                      <option>Khu du lịch</option>
-                      <option>Công viên</option>
-                    </select>
+    <div class="container">
+      <div class="row form__contents">
+        <div class="form__title w-100 text-center mb-5">
+          <h2>Giải pháp toàn diện cho doanh nghiệp F&B phát triển kinh doanh</h2>
+        </div>
+        <div class="col-lg-6 bg-form order-lg-1 order-md-2 order-sm-2 order-2">
+          <img src="./images/gioi-thieu/form.png" alt="Image form" class="img-fluid">
+        </div>
+        <div class="col-lg-6 order-lg-2 order-md-1 order-sm-1 order-1 form__box_right">
+          <div class="form__box">
+            <div class="form__box__title mb-2">
+              <h2 class="form__box__title_item item-req">yêu cầu </h2>
+              <h2 class="form__box__title_item">tư vấn</h2>
+            </div>
+            <div class="form__box__description text-center mb-3">
+              <p>Trải nghiệm 14 ngày miễn phí</p>
+            </div>
+            <div class="form__input">
+              <form action="#">
+                <input type="text" placeholder="Tên của bạn (*)" class="form-control">
+                <input type="tel" placeholder="Điện thoại (*)" class="form-control">  
+                <input type="email" placeholder="Email" class="form-control">
+                <div class="input-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">Mô hình kinh doanh</span>
                   </div>
-                  <button class="form__input__submit btn btn-danger w-100">gửi thông tin</button>
-                  <div class="form__contact_info text-center mt-4">
-                    <p>Hotline: 1800 1084 - Hỗ trợ nhanh: 0914 536 446</p>
-                  </div>
-                </form>
-              </div>
+                  <select class="form-control">
+                    <option>Nhà hàng</option>
+                    <option>Khách sạn</option>
+                    <option>Home Stay</option>
+                    <option>Khu du lịch</option>
+                    <option>Công viên</option>
+                  </select>
+                </div>
+                <button class="form__input__submit btn btn-danger w-100">gửi thông tin</button>
+                <div class="form__contact_info text-center mt-4">
+                  <p>Hotline: 1800 1084 - Hỗ trợ nhanh: 0914 536 446</p>
+                </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
+
   </main>
   <footer>
     <div class="container">

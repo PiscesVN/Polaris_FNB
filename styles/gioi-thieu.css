@@ -46,7 +46,7 @@ section.banner .banner__contents{
 
 section.banner .banner__title h1{
 	font-family: Roboto-Bold;
-  font-size: 43px;
+  font-size: 44px;
   font-weight: bold;
   line-height: 57px;
 }
@@ -54,7 +54,7 @@ section.banner .banner__title h1{
 section.banner .banner__description p{
 	  font-family: Roboto;
     font-size: 20px;
-    line-height: 37px;
+    line-height: 40px;
 }
 
 section.banner .banner__description a{
@@ -70,15 +70,15 @@ section.banner .banner__contents .banner__group_btn{
 
 section.banner .banner__contents .banner__group_btn button{
 	padding: 10px;
-	border-radius: 40px;
-	font-size: 15px;
-	padding-left: 30px;
-	padding-right: 30px;
-	font-family: Roboto;
-	border: 1px solid;
-	width: 42%;
-	padding-top: 3%;
-  padding-bottom: 3%;
+    border-radius: 40px;
+    font-size: 16px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-family: Roboto;
+    border: 1px solid;
+    width: 42%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 button.banner__btn_ask {
@@ -86,13 +86,14 @@ button.banner__btn_ask {
 }
 
 section.banner .banner__contents .banner__group_btn button.banner__btn_register{
-	color: white;
-	background-color: #d43419;
-	border-color: #d43419;
-	font-family: Roboto-Light;
-  font-weight: 900;
-  padding-top: 3%;
-  padding-bottom: 3%;
+	font-size: 16px;
+    color: white;
+    background-color: #d43419;
+    border-color: #d43419;
+    font-family: Roboto-Light;
+    font-weight: 900;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 section.banner .banner__contents .banner__group_btn button:focus{
@@ -170,7 +171,7 @@ section.video-info{
 }
 section.video-info .video-info__title h1{
 	font-family: Roboto-Light;
-  font-size: 38px;
+  font-size: 36px;
   font-weight: normal;
 }
 
@@ -204,6 +205,7 @@ section.trens .trens__title h2{
 
 section.trens .trens__title small{
 	letter-spacing: 1.5px;
+	font-size: 16px;
 }
 
 section.trens .trens__title__small.mt-3 {
@@ -223,7 +225,7 @@ section.trens .trens__contents .card .card-body{
 }
 
 section.trens .trens__title__large h1 {
-    font-size: 35px;
+    font-size: 36px;
     font-family: Roboto-Light;
 }
 
@@ -231,12 +233,14 @@ section.trens .trens__contents .card .card-body a{
 	color: #31ab70;
 	text-decoration: underline;
 	font-weight: bold;
+	font-size: 14px;
 }
 
 section.trens .trens__contents .card .card-body .card-title {
     margin-bottom: .75rem;
     font-family: Roboto;
     font-weight: 600;
+    font-size: 18px;
 }
 
 section.trens .trens__contents .card .card-body .card-text{
@@ -251,6 +255,7 @@ section.trens .trens__contents p.card-text.block-ellipsis {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 14px;
 }
 
 @media (min-width: 768px){
@@ -306,7 +311,7 @@ section.customers .customers__title h5{
 	text-transform: uppercase;
 	font-weight: bold;
 	text-align: center;
-	/*font-size: 18px;*/
+	font-size: 20px;
 }
 
 section.customers .customers__logos .customers__box-logo{
@@ -346,12 +351,14 @@ section.message-customer{
 
 section.message-customer .message-customer__message p{
 	font-weight: 550;
-	font-style: italic;
+    font-style: italic;
+    font-size: 16px;
+    line-height: 30px;
 }
 
 section.message-customer .message-customer__info .message-customer__name p{
 	font-weight: bold;
-	font-size: 18px;
+	font-size: 16px;
 	font-family: Roboto;
 }
 
@@ -363,7 +370,7 @@ section.message-customer .message-customer__info .message-customer__position p{
 }
 
 section.message-customer .message-customer__info .message-customer__see-more a{
-		font-size: 15px;
+	font-size: 14px;
     color: #31ab70;
     font-weight: bold;
     text-decoration: underline;
@@ -385,7 +392,7 @@ section.message-customer .message-customer__image-box img {
 section.page-infomations .page-infomations__title h1{
 	font-weight: normal;
   font-family: Roboto-Light;
-  font-size: 37px;
+  font-size: 36px;
 }
 
 section.page-infomations .page-infomations__title.text-center {
@@ -437,7 +444,7 @@ section.page-infomations .tab-content .card{
 }
 
 section.page-infomations .tab-content .card .card-body .card-title{
-	font-size: 17px;
+	font-size: 18px;
     font-weight: bold;
     font-family: Roboto;
 }
@@ -470,6 +477,7 @@ section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
+    font-size: 14px;
 }
 /*end section page infomation*/
 
@@ -803,7 +811,7 @@ footer .footer__connect {
     line-height: 52px;
 	}
 	section.video-info .video-info__title h1 {
-    font-size: 33px;
+    font-size: 36px;
 	}
 	section.video-info {
     margin-top: 75px;
@@ -906,7 +914,7 @@ footer .footer__connect {
 	section.banner .banner__title h1 {
     text-align: center;
     font-weight: bold;
-    font-size: 53px;
+    font-size: 50px;
     line-height: 70px;
     font-family: Roboto-Bold;
 	}
@@ -930,17 +938,19 @@ footer .footer__connect {
     text-align: center;
 	}
 	section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding-top: 1%;
+    font-size: 20px;
+    padding-bottom: 1%;
+    width: 30%;
 	}
 	section.trens .trens__title__large h1 {
-    font-size: 39px;
+    font-size: 36px;
 	}
 	section.banner .banner__contents .banner__group_btn button {
-    font-size: 21px;
+    font-size: 20px;
   }
   section.trens .trens__title small {
-    font-size: 21px;
+    font-size: 20px;
 	}
 	section.trens .trens__contents .card {
     align-items: center;
@@ -952,15 +962,15 @@ footer .footer__connect {
     width: 80%;
 	}
 	section.trens .trens__contents .card .card-body .card-title {
-    font-size: 28px;
+    font-size: 30px;
     font-family: Roboto-Bold;
     margin-bottom: 5px;
 	}
 	section.trens .trens__contents .card .card-body .card-text {
-    font-size: 21px;
+    font-size: 20px;
 	}
 	section.trens .trens__contents .card .card-body a {
-    font-size: 21px;
+    font-size: 20px;
 	}
 
 	section.trens .trens__contents .card .card-body .card-text {
@@ -995,8 +1005,8 @@ footer .footer__connect {
     padding-right: 11%;
 	}
 	section.page-infomations .nav a.nav-link {
-    font-size: 16px;
-  }
+    font-size: 18px;
+  	}
   section.page-infomations ul.nav.nav-fill {
     padding: 0 85px;
 	}
@@ -1005,19 +1015,47 @@ footer .footer__connect {
 	}
 	section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
      -webkit-line-clamp: 3;
-     font-size: 16px;
+     font-size: 20px;
 	}
 	section.page-infomations .tab-content .card .card-body .card-text.calendar {
     margin-bottom: 4px;
+    font-size: 18px;
 	}
 	section.page-infomations .tab-content .card .card-body .card-title {
-   	font-size: 21px;
+   	font-size: 24px;
    	margin-bottom: .5rem;
 	}
 	section.page-infomations .tab-content .card .card-body {
     padding: 1rem;
     padding-bottom: 0;
 	}
+	section.platforms .platforms__title h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 22px;
+    margin-bottom: 3%;
+	}
+	section.customers .customers__title h5 {
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    font-size: 22px;
+	}
+	section.message-customer .message-customer__message p {
+    font-weight: 550;
+    font-style: italic;
+    font-size: 22px;
+    line-height: 30px;
+	}
+	section.message-customer .message-customer__info .message-customer__see-more a {
+    font-size: 20px;
+    color: #31ab70;
+    font-weight: bold;
+    text-decoration: underline;
+    font-family: Roboto-Light;
+}
 }
 
 @media (max-width: 640px) {
@@ -1049,7 +1087,7 @@ footer .footer__connect {
 	    margin-right: 0%;
 	}
 	section.customers .row.customers__logos {
-	    padding-left: 11%;
+	    padding-left: 4%;
 	    padding-right: 4%;
 	}
 	section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
@@ -1059,6 +1097,18 @@ footer .footer__connect {
 }
 
 @media (max-width: 	500px) {
+	section.page-infomations .tab-content .card .card-body .card-title {
+    font-size: 16px;
+    margin-bottom: .5rem;
+}
+section.page-infomations .tab-content .card .card-body .card-text.calendar {
+    margin-bottom: 4px;
+    font-size: 16px;
+}
+section.page-infomations .tab-content .card .card-body p.card-text.ellipsis {
+    -webkit-line-clamp: 2;
+    font-size: 13px;
+}
 	.banner__title {
     padding: 0 4%;
 }
@@ -1073,9 +1123,9 @@ section.banner .banner__contents .banner__group_btn button.banner__btn_register,
     margin-top: 1%;
 }
 section.banner .banner__contents .banner__group_btn button.banner__btn_register, section.banner .banner__contents .banner__group_btn button {
-    width: 52%;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    width: 56%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 }
 @media 	(max-width: 400px) {
@@ -1087,7 +1137,7 @@ section.banner .banner__contents .banner__group_btn button.banner__btn_register,
     font-family: Roboto-Bold;
 }
 section.banner .banner__contents .banner__group_btn button {
-    font-size: 17px;
+   font-size: 20px;
 }
 .trens__title__large h1 {
     padding-left: 4%;
