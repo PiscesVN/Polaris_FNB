@@ -11,21 +11,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="./styles/update-feature.css">
     <link rel="stylesheet" href="./styles/footer.css">
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/header.css">
 </head>
 
 <body>
     <div class="top-bar">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-8 d-none d-md-block pl-0 pr-0">
+        <div class="col-lg-6 col-md-8 d-none d-lg-block pl-0 pr-0">
           <h6 class="top-bar__info">info@polarisvietnam.com &nbsp;&nbsp; </h6> <span> | </span>
           <h6 class="top-bar__info">&nbsp;&nbsp;028 6261 33 77&nbsp;&nbsp; </h6> <span> | </span>
           <h6 class="top-bar__info">&nbsp;&nbsp;Hotline: 18001084</h6>
         </div>
-        <div class="col-lg-4 col-md-1 d-none d-md-block"></div>
-        <div class="d-none d-sm-block d-md-none col-9"></div>
-        <div class="col-lg-2 col-md-3 col-3 pr-0">
+        <div class="col-lg-4 col-md-1 d-none d-lg-block"></div>
+        <div class="d-md-block d-lg-none col-8 top-bar-custom-col"></div>
+        <div class="col-lg-2 col-md-3 col-3 pr-0 top-bar-custom">
           <img src="images/vietnam.png" alt="" class="top-bar__thumnail">
           <h6 class="top-bar__language">Tiếng Việt&nbsp;
             <i class="fas fa-sort-down top-bar__language__icon"></i>
@@ -37,12 +37,12 @@
   <header>
     <div class="container mobile-logo">
       <div class="row">
-        <div class="col-md-9 col-sm-7 col-5">
+        <div class="col-md-8 col-sm-7 col-5">
           <a href="" class="navbar-brand mobile-logo">
             <img src="images/logo/logo.png" alt="" class="nav-bar__links">
           </a>
         </div>
-        <div class="col-md-2 col-sm-4 col-6">
+        <div class="col-md-3 col-sm-4 col-6">
           <a href="#" class="nav-bar__btn btn btn-danger">Đăng kí</a> 
         </div>
         <div class="col-md-1 col-sm-1 col-1 pr-0">
@@ -55,7 +55,7 @@
     </div>
     <div class="collapse navbar-collapse" id="navbarSupportedContent20">
       <ul class="navbar-nav mr-auto">
-        <li class="nav-item active"><a href="index.html" class="nav-link">Giới thiệu</a></li>
+        <li class="nav-item active"><a href="javascript(0)" class="nav-link">Giới thiệu</a></li>
         <li class="nav-item"><a href="tinh-nang.html" class="nav-link">Tính năng</a></li>
         <li class="nav-item"><a href="app-order.html" class="nav-link">Kênh Order</a></li>
         <li class="nav-item"><a href="bang-gia.html" class="nav-link">Bảng giá</a></li>
@@ -75,7 +75,7 @@
           </div>
           <div class="col-lg-9 col-md-10 pl-0 pr-0">
             <ul class="nav-bar__menu">
-              <li class="nav-bar__menu_item"><a href="index.html" class="nav-bar__menu_item__link">Giới thiệu</a></li>
+              <li class="nav-bar__menu_item"><a href="javascript(0)" class="nav-bar__menu_item__link">Giới thiệu</a></li>
               <li class="nav-bar__menu_item"><a href="tinh-nang.html" class="nav-bar__menu_item__link">Tính năng</a></li>
               <li class="nav-bar__menu_item"><a href="app-order.html" class="nav-bar__menu_item__link">Kênh Order</a></li>
               <li class="nav-bar__menu_item"><a href="bang-gia.html" class="nav-bar__menu_item__link">Bảng giá</a></li>
@@ -262,19 +262,21 @@
                 <div class="row mt-4">
                     <div class="col-12 text-center">
                         <nav aria-label="Page navigation example">
-                            <ul class="pagination">
+                            <ul class="pagination justify-content-center">
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Previous">
-                                        <span aria-hidden="true">&laquo;</span>
+                                        <span aria-hidden="true"><img src="./images/tin-tuc/left.png" alt=""></span>
                                         <span class="sr-only">Previous</span>
                                     </a>
                                 </li>
                                 <li class="page-item"><a class="page-link" href="#">1</a></li>
                                 <li class="page-item"><a class="page-link" href="#">2</a></li>
                                 <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                <li class="page-item"><a class="page-link" href="#">4</a></li>
+                                <li class="page-item"><a class="page-link" href="#">5</a></li>
                                 <li class="page-item">
                                     <a class="page-link" href="#" aria-label="Next">
-                                        <span aria-hidden="true">&raquo;</span>
+                                        <span aria-hidden="true"><img src="./images/tin-tuc/right.png" alt=""></span>
                                         <span class="sr-only">Next</span>
                                     </a>
                                 </li>
@@ -300,13 +302,13 @@
     <footer>
         <div class="container">
           <div class="row footer__above mb-5">
-            <div class="col-md-3 col-sm-8">
+            <div class="col-md-3 col-sm-8 col-6">
               <img src="./images/logo/logo_polaris2.png" alt="Logo footer" class="mb-3 img-fluid">
               <div class="footer__above_description">
                 <p>Tại <b>Polaris</b>, chúng tôi luôn phấn đấu để dẫn đầu về đổi mới và ssáng tạo. Ứng dụng trí tuệ nhân tạo, kiểm định chất lượng nghiêm ngặt vào quy trình sản xuất sản phẩm luôn là tiêu chí hàng đầu.</p>
               </div>
             </div>
-            <div class="col-md-2 col-sm-4">
+            <div class="col-md-2 col-sm-4 col-6 intro">
               <div class="footer__title">về polaris</div>
               <ul>
                 <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Giới thiệu</a></li>
@@ -315,7 +317,7 @@
                 <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Hoạt động cộng đồng</a></li>
               </ul>
             </div>
-            <div class="col-md-2 col-sm-8 pr-0 service">
+            <div class="col-md-2 col-sm-8 col-6 pr-0 service">
               <div class="footer__title">dịch vụ</div>
               <ul>
                 <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Nền tảng số</a></li>
@@ -323,7 +325,7 @@
                 <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Tuyển dụng</a></li>
               </ul>
             </div>
-            <div class="col-md-3 col-sm-4 pr-0 about_us">
+            <div class="col-md-3 col-sm-4 col-6 pr-0 about_us">
               <div class="footer__title">thông tin chung</div>
               <ul>
                 <li><a href="#"><i class="far fa-chevron-right mr-2"></i>Chính sách bảo mật</a></li>
@@ -335,15 +337,22 @@
             </div>
             <div class="col-md-3">
               <div class="footer__title">kết nối với chúng tôi</div>
-              <div class="social-links">
-                  <a href="#" class="footer__icon_lzd"><img src="./images/logo/lazada.png" alt="" class="icon-lzd w-100"></a>
-                  <a href="#" class="footer__icon_tiki"><img src="./images/logo/tiki.png" alt="" class="icon-tiki w-100"></a>
-                  <a href="#" class="footer__icon_sp"><img src="./images/logo/sh.png" alt="" class="icon-shoppe w-100"></a>
-                  <a href="#" class="footer__icon_fb"><i class="fab fa-facebook-f"></i></a>
-                  <a href="#" class="footer__icon_yb"><img src="./images/logo/yb.png" alt="" class="icon-youtube w-100"></a>
-
+              <div class="row">
+                  <div class="col-md-12 col-6">
+                      <div class="social-links">
+                          <a href="#" class="footer__icon_lzd"><img src="./images/logo/lazada.png" alt="" class="icon-lzd w-100"></a>
+                          <a href="#" class="footer__icon_tiki"><img src="./images/logo/tiki.png" alt="" class="icon-tiki w-100"></a>
+                          <a href="#" class="footer__icon_sp"><img src="./images/logo/sh.png" alt="" class="icon-shoppe w-100"></a>
+                          <a href="#" class="footer__icon_fb"><i class="fab fa-facebook-f"></i></a>
+                          <a href="#" class="footer__icon_yb"><img src="./images/logo/yb.png" alt="" class="icon-youtube w-100"></a>
+                      </div>
+                  </div>
+                  <div class="col-md-12 col-6">
+                      <img src="./images/bo-cong-thuong.png" alt="" class="mb-3 img-cong-thuong" class="img-fluid">
+                  </div>
               </div>
-              <img src="./images/bo-cong-thuong.png" alt="" class="mb-3 img-cong-thuong">
+              
+              
               <div class="input-group footer__email_box">
                 <input type="text" class="form-control" placeholder="Email nhận bản tin ..." aria-describedby="basic-addon2">
                 <div class="input-group-append">
